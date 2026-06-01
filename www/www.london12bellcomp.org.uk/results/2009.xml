@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2009</year>
+		<venue>St Magnus the Martyr</venue>
+		<band>
+			<name>Southwark Cathedral</name>
+			<rang>1</rang>
+			<mark>63</mark>
+			<speed>3h26</speed>
+		</band>
+		<band>
+			<name>South Croydon</name>
+			<rang>2</rang>
+			<mark>45</mark>
+			<speed>3h24</speed>
+		</band>
+		<band>
+			<name>Kingston-upon-Thames</name>
+			<rang>3</rang>
+			<mark>35</mark>
+			<speed>3h21</speed>
+		</band>
+		<band>
+			<name>Ancient Society of College Youths (J)</name>
+			<rang>4</rang>
+			<mark>75</mark>
+			<speed>3h26</speed>
+		</band>
+		<band>
+			<name>St Martin-in-the-Fields</name>
+			<rang>5</rang>
+			<mark>65</mark>
+			<speed>3h23</speed>
+		</band>
+		<band>
+			<name>Society of Royal Cumberland Youths</name>
+			<rang>6</rang>
+			<mark>81</mark>
+			<speed>3h30</speed>
+		</band>
+		<band>
+			<name>Southwark Cathedral (M)</name>
+			<rang>7</rang>
+			<mark>72</mark>
+			<speed>3h23</speed>
+		</band>
+		<band>
+			<name>Ancient Society of College Youths</name>
+			<rang>8</rang>
+			<mark>88</mark>
+			<speed>3h30</speed>
+		</band>
+		<band>
+			<name>Middlesex County Association &amp; London Diocesan Guild</name>
+			<rang>9</rang>
+			<mark>60</mark>
+			<speed>3h34</speed>
+		</band>
+		<band>
+			<name>University of London Society of Change Ringers</name>
+			<rang>10</rang>
+			<mark>61</mark>
+			<speed>3h29</speed>
+		</band>
+	</result>
+</results>

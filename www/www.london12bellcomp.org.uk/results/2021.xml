@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2021</year>
+  	        <venue>St. Mary le Bow</venue>
+        <band>
+		<name>University of London Society of Change Ringers</name>
+		<rang>10</rang>
+		<mark>60</mark>
+		<speed>3h32</speed>
+                <touch>Lon12-2021_team10_ULSCR.mp3</touch>
+                <photo>ulscr.jpg</photo>
+           	<cert>ULSCR.pdf</cert>
+		<ringers>
+            		<r1>Helen M Maynard</r1>
+			<r2>Michael J Trimm</r2>
+			<r3>Anne F Hughes</r3>
+			<r4>Josie M Godfrey</r4>
+			<r5>Mariko H Whyte</r5>
+			<r6>John G Hutchinson</r6>
+			<r7>Peter M Jasper</r7>
+			<r8>Robert Sworder</r8>
+			<r9>David G Maynard</r9>
+			<r10>Christopher J Backhouse</r10>
+			<r11>Andrew M Hills</r11>
+			<r12>Luke O Camden</r12>
+            	</ringers>
+            	<conductor>Andrew M Hills</conductor> 
+	</band>
+ 	<band>
+		<name>Croydon, Surrey</name>
+		<rang>2</rang>
+		<mark>73</mark>
+		<speed>3h41</speed>
+                <touch>Lon12-2021_team2_Croydon.mp3</touch>
+                <photo>croydon_surrey.jpg</photo>
+           	<cert>Croydon_Surrey.pdf</cert>
+		<ringers>
+         	   	<r1>Shirley E McGill</r1>
+			<r2>Michael Uphill</r2>
+			<r3>Jenny Heyworth</r3>
+			<r4>Caroline Prescott</r4>
+			<r5>David Wallis</r5>
+			<r6>Christopher Ridley</r6>
+			<r7>Anne Anthony</r7>
+			<r8>Graeme Booth</r8>
+			<r9>Paul Flavell</r9>
+			<r10>Philip Ridley</r10>
+			<r11>Anthony Matthews</r11>
+			<r12>Noel Gibbin</r12>
+           	 </ringers>
+           	 <conductor>Michael Uphill</conductor> 
+	</band>	       
+        <band>
+		<name>Ancient Society of College Youths (Jannu)</name>
+		<rang>4</rang>
+		<mark>76</mark>
+		<speed>3h37</speed>
+             	<touch>Lon12-2021_team4_ASCY-Ja.mp3</touch>
+		<photo>ascy_jannu.jpg</photo>
+           	<cert>ASCY_Jannu.pdf</cert>
+		<ringers>
+           	 	<r1>Matthew E Rayner</r1>
+			<r2>Jemma L Meyer</r2>
+			<r3>Anthony J Bloomfield</r3>
+			<r4>Gwen Rogers</r4>
+			<r5>James J Watkins</r5>
+			<r6>David F Perkins</r6>
+			<r7>Phillip P Ridley</r7>
+			<r8>James C Marchbank</r8>
+			<r9>Leigh D G Simpson</r9>
+			<r10>Colin G Newman</r10>
+			<r11>Philip Rogers</r11>
+			<r12>Benjamin J Meyer</r12>
+            	</ringers>
+            	<conductor>James C Marchbank</conductor> 
+	</band>
+	<band>
+		<name>Middlesex County Association</name>
+		<rang>5</rang>
+		<mark>70</mark>
+		<speed>3h28</speed>
+		<touch>Lon12-2021_team5_MCALDG.mp3</touch>
+		<photo>middlesex.jpg</photo>
+             	<cert>MCALDG.pdf</cert>
+		<ringers>
+            		<r1>Stephen J R Mitchell</r1>
+			<r2>Mary E Gow</r2>
+			<r3>Andrew D Hodgson</r3>
+			<r4>Christopher M Gould</r4>
+			<r5>Geraldine R Forster</r5>
+			<r6>Alec E Gray</r6>
+			<r7>Michael Leese</r7>
+			<r8>Stephen R Smith</r8>
+			<r9>Thomas F Lawrance</r9>
+			<r10>Lucinda J Woodward</r10>
+			<r11>Simon S Meyer</r11>
+			<r12>David I Bassford</r12>
+            	</ringers>
+            	<conductor>Lucinda J Woodward</conductor> 
+	</band>
+	<band>
+		<name>Southwark Cathedral (Gold)</name>
+		<rang>6</rang>
+		<mark>64</mark>
+		<speed>3h40</speed>
+		<touch>Lon12-2021_team6_Southwark-G.mp3</touch>
+		<photo>southwark_gold.jpg</photo>
+           	<cert>Southwark_Gold.pdf</cert>
+		<ringers>
+            		<r1>Mary Gow</r1>
+			<r2>Anne Hughes (Roxy)</r2>
+			<r3>Robert Sworder</r3>
+			<r4>Michael Uphill</r4>
+			<r5>Rachel Prior</r5>
+			<r6>Stephen Mitchell</r6>
+			<r7>Tom Nagel</r7>
+			<r8>Chris Backhouse</r8>
+			<r9>Anthony Matthews</r9>
+			<r10>Hannah Taylor</r10>
+			<r11>Matthew Rayner</r11>
+			<r12>Nathan Evans</r12>
+            	</ringers>
+            	<conductor>Anthony Matthews</conductor> 
+	</band>
+	<band>
+		<name>Southwark Cathedral (Red)</name>
+		<rang>8</rang>
+		<mark></mark>
+		<speed></speed>
+		<touch></touch>
+		<photo>southwark_red.jpg</photo>
+           	<cert>Southwark_Red.pdf</cert>
+		<ringers>
+            		<r1>Rebecca Sugden</r1>
+			<r2>Sheila Cheesman</r2>
+			<r3>Heather Rayner</r3>
+			<r4>Hannah Burton</r4>
+			<r5>Daniel Hughes</r5>
+			<r6>Jeremy Cheesman</r6>
+			<r7>Luke Perkins</r7>
+			<r8>Jason Hughes</r8>
+			<r9>Michael Leese</r9>
+			<r10>James Marchbank</r10>
+			<r11>Luke Camden</r11>
+			<r12>Alex Tatlow</r12>
+            	</ringers>
+            	<conductor></conductor> 
+	</band>
+	<band>
+		<name>St Paul's Cathedral Guild</name>
+		<rang>1</rang>
+		<mark>88</mark>
+		<speed>3h41</speed>
+		<touch>Lon12-2021_team1_StPauls.mp3</touch>
+		<cert>stpcgor.pdf</cert>
+		<photo>stpcgor.jpg</photo>
+            	<ringers>
+            		<r1>Paul N Mounsey</r1>
+			<r2>Rebecca L Sugden</r2>
+			<r3>James J Watkins</r3>
+			<r4>Ann White</r4>
+			<r5>Michael R Crockett</r5>
+			<r6>Martin J Cansdale</r6>
+			<r7>David I Bassford</r7>
+			<r8>Lucinda J Woodward</r8>
+			<r9>Nicholas D Brown</r9>
+			<r10>Leigh D G Simpson</r10>
+			<r11>Paul J Tiebout</r11>
+			<r12>John I White</r12>
+            </ringers>
+            <conductor>Paul N Mounsey</conductor> 
+	</band>
+	<band>
+		<name>Ancient Society of College Youths (Jomolhari)</name>
+		<rang>3</rang>
+		<mark>86</mark>
+		<speed>3h33</speed>
+		<touch>Lon12-2021_team3_ASCY-Jo.mp3</touch>
+		<photo>ascy_jomolhari.jpg</photo>
+		<cert>ASCY_Jomolhari.pdf</cert>
+		<ringers>
+            		<r1>Tessa K Simpson</r1>
+			<r2>Adam A Brady</r2>
+			<r3>John H Hughes D'Aeth</r3>
+			<r4>Henry D Coggill</r4>
+			<r5>Ryan S Noble</r5>
+			<r6>Graham E Firman</r6>
+			<r7>Martin J Cansdale</r7>
+			<r8>Alistair A F Smith</r8>
+			<r9>Stephen A Coaker</r9>
+			<r10>Paul J Tiebout</r10>
+			<r11>Robert W Lee</r11>
+			<r12>Simon S Meyer</r12>
+           	</ringers>
+		<conductor>Stephen A Coaker</conductor> 
+	</band>
+	<band>
+		<name>Cornhill</name>
+		<rang>7</rang>
+		<mark>78</mark>
+		<speed>3h37</speed>
+		<touch>Lon12-2021_team7_Cornhill.mp3</touch>
+		<photo>cornhill.jpg</photo>
+		<cert>Cornhill.pdf</cert>
+		<ringers>
+           	 	<r1>Hannah L Taylor</r1>
+			<r2>Samantha J Hovey</r2>
+			<r3>Christopher M Gould</r3>
+			<r4>Anthony R Kench</r4>
+			<r5>Colin G Wright</r5>
+			<r6>Anthony J Bloomfield</r6>
+			<r7>Ryan S Noble</r7>
+			<r8>David F Perkins</r8>
+			<r9>Neil Buswell</r9>
+			<r10>Stephen J Bailey</r10>
+			<r11>John N Hughes D'Aeth</r11>
+			<r12>Andrew M Hills</r12>
+            	</ringers>
+            	<conductor>John N Hughes D'Aeth</conductor> 
+	</band> 
+	<band>
+		<name>Society of Royal Cumberland Youths</name>
+		<rang>9</rang>
+		<mark>68</mark>
+		<speed>3h33</speed>
+		<touch>Lon12-2021_team9_SRCY.mp3</touch>
+		<photo>srcy.jpg</photo>
+		<cert>SRCY.pdf</cert>
+		<ringers>
+           	 	<r1>Joanna K Dorling</r1>
+			<r2>Jack E Page</r2>
+			<r3>Jimmy L Yeoman</r3>
+			<r4>Shirley E McGill</r4>
+			<r5>Mary E Holden</r5>
+			<r6>Ian G Mills</r6>
+			<r7>Geraldine R Forster</r7>
+			<r8>Michael R Crockett</r8>
+			<r9>Douglas J Beaumont</r9>
+			<r10>Alan Regin</r10>
+			<r11>Thomas B Mack</r11>
+			<r12>Nicholas D Brown</r12>
+            	</ringers>
+            	<conductor>Jack E Page</conductor> 
+	</band> 
+	</result>
+</results>

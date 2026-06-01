@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2011</year>
+		<venue>St Leonard's Shoreditch</venue>
+		<band>
+			<name>Ancient Society of College Youths</name>
+			<rang>7</rang>
+			<mark>73.3</mark>
+		</band>
+		<band>
+			<name>Middlesex County Association &amp; London Diocesan Guild</name>
+			<rang>2</rang>
+			<mark>50.1</mark>
+		</band>
+		<band>
+			<name>Society of Royal Cumberland Youths</name>
+			<rang>4</rang>
+			<mark>73.7</mark>
+		</band>
+		<band>
+			<name>South Croydon</name>
+			<rang>3</rang>
+			<mark>36.5</mark>
+		</band>
+		<band>
+			<name>Southwark Cathedral 1</name>
+			<rang>9</rang>
+			<mark>57.1</mark>
+		</band>
+		<band>
+			<name>Southwark Cathedral 2</name>
+			<rang>8</rang>
+			<mark>57.5</mark>
+		</band>
+		<band>
+			<name>St Martin-in-the-Fields</name>
+			<rang>1</rang>
+			<mark>40.4</mark>
+		</band>
+		<band>
+			<name>St Michael's Cornhill</name>
+			<rang>5</rang>
+			<mark>79.2</mark>
+		</band>
+		<band>
+			<name>University of London Society of Change Ringers</name>
+			<rang>6</rang>
+			<mark>70.8</mark>
+		</band>
+	</result>
+</results>

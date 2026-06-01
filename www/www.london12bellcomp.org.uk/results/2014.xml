@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+<result>
+	    <year>2014</year>
+        <venue>St Mary-le-Bow</venue>
+        <band>
+            <name>Ancient Society of College Youths (M)</name>
+            <rang>9</rang>
+            <mark>75</mark>
+            <speed>3h28</speed>
+            <photo>ASCYM2014.jpg</photo>
+        </band>
+        <band>
+            <name>Ancient Society of College Youths (S)</name>
+            <rang>10</rang>
+            <mark>85</mark>
+            <speed>3h32</speed>
+            <photo>ASCYS2014.jpg</photo>
+        </band>
+        <band>
+            <name>Middlesex County Association &amp; London Diocesan Guild</name>
+            <rang>5</rang>
+            <mark>55</mark>
+            <speed>3h31</speed>
+            <photo>MCA2014.jpg</photo>
+        </band>
+        <band>
+            <name>St Martin-in-the-Fields</name>
+            <rang>4</rang>
+            <mark>66</mark>
+            <speed>3h31</speed>
+            <photo>StMitF2014.jpg</photo>
+        </band>
+        <band>
+            <name>St Michael's Cornhill</name>
+            <rang>7</rang>
+            <mark>59</mark>
+            <speed>3h35</speed>
+            <photo>Chill2014.jpg</photo>
+        </band>
+        <band>
+            <name>St Paul's Cathedral</name>
+            <rang>3</rang>
+            <mark>68</mark>
+            <speed>3h40</speed>
+            <photo>StP2014.jpg</photo>
+        </band>
+        <band>
+            <name>Society of Royal Cumberland Youths</name>
+            <rang>8</rang>
+            <mark>77</mark>
+            <speed>3h25</speed>
+            <photo>SRCY2014.jpg</photo>
+        </band>
+        <band>
+            <name>Southwark Cathedral (S)</name>
+            <rang>1</rang>
+            <mark>57</mark>
+            <speed>3h40</speed>
+            <photo>SwkS2014.jpg</photo>
+        </band>
+        <band>
+            <name>Southwark Cathedral (J)</name>
+            <rang>2</rang>
+            <mark>55</mark>
+            <speed>3h20</speed>
+            <photo>SwkJ2014.jpg</photo>
+        </band>
+        <band>
+            <name>University of London Society of Change Ringers</name>
+            <rang>6</rang>
+            <mark>61</mark>
+            <speed>3h44</speed>
+            <photo>UL2014.jpg</photo>
+        </band>
+    </result>
+</results>

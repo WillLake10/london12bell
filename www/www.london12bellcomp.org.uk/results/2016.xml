@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+<result>
+	    <year>2016</year>
+        <venue>St Sepulchre-without-Newgate</venue>
+        <band>
+            <name>Ancient Society of College Youths (Aleph)</name>
+            <rang>5</rang>
+            <mark>75</mark>
+            <speed>3h37</speed>
+            <photo>ASCY_Aleph2016.jpg</photo>
+            <touch>ASCYAleph2016.mp3</touch>
+        </band>
+        <band>
+            <name>Ancient Society of College Youths (Alpha)</name>
+            <rang>1</rang>
+            <mark>86</mark>
+            <speed>3h31</speed>
+            <photo>ASCY_Alpha2016.jpg</photo>
+            <photocaption>Clockwise from front right:</photocaption>
+            <ringers>
+            	<r1>Tessa K Beadman</r1>
+		<r2>John N Hughes-D’Aeth</r2>
+		<r3>Stephen A Coaker</r3>
+		<r4>Henry D Coggill</r4>
+		<r5>Richard B Pullin</r5>
+		<r6>Andrew J Graham</r6>
+		<r7>Leigh D G Simpson</r7>
+		<r8>David E House</r8>
+		<r9>Simon S Meyer</r9>
+		<r10>Andrew P F Bradford</r10>
+		<r11>Robert W Lee</r11>
+		<r12>Oliver D Cross</r12>
+            </ringers>
+            <conductor>1</conductor>
+            <touch>ASCYAlpha2016.mp3</touch>
+        </band>
+        <band>
+            <name>Croydon (Surrey)</name>
+            <rang>8</rang>
+            <mark>65</mark>
+            <speed>3h24</speed>
+            <photo>CroydonSurrey2016.jpg</photo>
+            <touch>CroydonSurrey2016.mp3</touch>
+        </band>
+        <band>
+            <name>Middlesex County Association and London Diocesan Guild</name>
+            <rang>7</rang>
+            <mark>83</mark>
+            <speed>3h31</speed>
+            <photo>Middlesex2016.jpg</photo>
+            <touch>Middlesex2016.mp3</touch>
+        </band>
+        <band>
+            <name>St Michael's, Cornhill</name>
+            <rang>4</rang>
+            <mark>75</mark>
+            <speed>3h32</speed>
+            <photo>Cornhill2016.jpg</photo>
+            <touch>Cornhill2016.mp3</touch>
+        </band>
+        <band>
+            <name>St Paul's Cathedral</name>
+            <rang>9</rang>
+            <mark>89</mark>
+            <speed>3h37</speed>
+            <photo>StPauls2016.jpg</photo>
+            <photocaption>Clockwise from front right:</photocaption>
+            <ringers>
+            	<r1>Rebecca L Sugden</r1>
+		<r2>Paul N Mounsey</r2>
+		<r3>Ann White</r3>
+		<r4>Timothy E S Holmes</r4>
+		<r5>Lucinda J Woodward</r5>
+		<r6>Leigh D G Simpson</r6>
+		<r7>Martin J Cansdale</r7>
+		<r8>Thomas F Lawrance</r8>
+		<r9>Henry D Coggill</r9>
+		<r10>Martin C Faulkes</r10>
+		<r11>Paul J Tiebout</r11>
+		<r12>John I White</r12>
+            </ringers>
+            <conductor>2</conductor>
+            <touch>StPauls2016.mp3</touch>
+        </band>
+        <band>
+            <name>Society of Royal Cumberland Youths</name>
+            <rang>3</rang>
+            <mark>87</mark>
+            <speed>3h33</speed>
+            <photo>SRCY2016.jpg</photo>
+            <photocaption>Clockwise from front right:</photocaption>
+            <ringers>
+            	<r1>Joanna K Dorling</r1>
+		<r2>Shirley E McGill</r2>
+		<r3>Heather M Forster</r3>
+		<r4>Michael R Crockett</r4>
+		<r5>Geraldine R Forster</r5>
+		<r6>Mary E Holden</r6>
+		<r7>Ian G Mills</r7>
+		<r8>Douglas J Beaumont</r8>
+		<r9>Stephen J Bailey</r9>
+		<r10>Benjamin D Constant</r10>
+		<r11>Alan Regin</r11>
+		<r12>Thomas B Mack</r12>
+            </ringers>
+            <conductor>12</conductor>
+            <touch>SRCY2016.mp3</touch>
+        </band>
+        <band>
+            <name>Southwark Cathedral</name>
+            <rang>6</rang>
+            <mark>73</mark>
+            <speed>3h34</speed>
+            <photo>Southwark2016.jpg</photo>
+            <touch>Southwark2016.mp3</touch>
+        </band>
+        <band>
+            <name>University of London Society of Change Ringers</name>
+            <rang>2</rang>
+            <mark>78</mark>
+            <speed>3h39</speed>
+            <photo>UL2016.jpg</photo>
+            <touch>UL2016.mp3</touch>
+        </band>
+    </result>
+</results>

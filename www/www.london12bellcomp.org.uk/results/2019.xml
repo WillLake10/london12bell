@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2019</year>
+  	        <venue>All Saints, Kingston upon Hull</venue>
+        <band>
+		<name>University of London Society of Changeringers</name>
+		<rang>1</rang>
+		<mark>58</mark>
+		<speed>3h23</speed>
+                <touch>Lon12-2019_team1_ULSCR.mp3</touch>
+                <photo>ULSCR.jpg</photo>
+           	<ringers>
+            		<r1>Kate R Wallis</r1>
+			<r2>Christopher P G Rimmer</r2>
+			<r3>Jemma L Mills</r3>
+			<r4>Josie M Godfrey</r4>
+			<r5>Rebecca A Steed</r5>
+			<r6>Harriet J M A Armitage</r6>
+			<r7>Thomas L Nagel</r7>
+			<r8>Christopher J Backhouse</r8>
+			<r9>Peter M Jasper</r9>
+			<r10>Alistair A F Smith</r10>
+			<r11>Benjamin J Meyer</r11>
+			<r12>Andrew M Hills</r12>
+            	</ringers>
+            	<conductor>Alistair A F Smith</conductor> 
+	</band>
+ 	<band>
+		<name>Croydon, Surrey</name>
+		<rang>2</rang>
+		<mark>75</mark>
+		<speed>3h18</speed>
+                <touch>Lon12-2019_team2_Croydon.mp3</touch>
+                <photo>Croydon_Surrey.jpg</photo>
+           	<ringers>
+         	   	<r1>Shirley E McGill</r1>
+			<r2>David C Bath</r2>
+			<r3>Caroline A Prescott</r3>
+			<r4>Sheila M Cheesman</r4>
+			<r5>Anne M Anthony</r5>
+			<r6>Jason Hughes</r6>
+			<r7>David N Wallis</r7>
+			<r8>Chris Ridley</r8>
+			<r9>Michael J Uphill</r9>
+			<r10>Philip P Ridley</r10>
+			<r11>Anthony P Matthews</r11>
+			<r12>Noel J R Gibbin</r12>
+           	 </ringers>
+           	 <conductor>Michael J Uphill</conductor> 
+	</band>	       
+        <band>
+		<name>Ancient Society of College Youths (Deimos)</name>
+		<rang>3</rang>
+		<mark>83</mark>
+		<speed>3h22</speed>
+             	<touch>Lon12-2019_team3_ASCY.mp3</touch>
+		<photo>ASCY_Deimos.jpg</photo>
+           	<ringers>
+           	 	<r1>Jemma L Mills</r1>
+			<r2>Martin  J Cansdale</r2>
+			<r3>Jillian E Parker</r3>
+			<r4>Gwen Rogers</r4>
+			<r5>James J Watkins</r5>
+			<r6>Ryan S Noble</r6>
+			<r7>Graham G Firman</r7>
+			<r8>Benjamin J Meyer</r8>
+			<r9>James C Marchbank</r9>
+			<r10>Matthew E Rayner</r10>
+			<r11>Philip Rogers</r11>
+			<r12>Colin G Newman</r12>
+            	</ringers>
+            	<conductor>Ryan S Noble</conductor> 
+	</band>
+	<band>
+		<name>Southwark Cathedral (Red)</name>
+		<rang>4</rang>
+		<mark>71</mark>
+		<speed>3h13</speed>
+		<touch>Lon12-2019_team4_Southwark.mp3</touch>
+		<photo>Southwark_Red.jpg</photo>
+           	<ringers>
+			<r1>Matthew E Rayner</r1>
+			<r2>Sheila M Cheesman</r2>
+			<r3>Rebecca A Steed</r3>
+			<r4>David F Perkins</r4>
+			<r5>Joanna C Franklin</r5>
+			<r6>Rachel J Mitchell</r6>
+			<r7>Simon D Roberts</r7>
+			<r8>Jonathan M Spencer</r8>
+			<r9>Hannah L Taylor</r9>
+			<r10>James C Marchbank</r10>
+			<r11>Luke O Camden</r11>
+			<r12>Anthony P Matthews</r12>
+            	</ringers>
+            	<conductor>Luke O Camden</conductor>
+	</band>
+	<band>
+		<name>Middlesex County Association</name>
+		<rang>5</rang>
+		<mark>45</mark>
+		<speed>3h16</speed>
+		<touch>Lon12-2019_team5_MCALDG.mp3</touch>
+		<photo>MCALDG.jpg</photo>
+             	<ringers>
+            		<r1>Stephanie J Pattenden</r1>
+			<r2>Stephen J F Mitchell</r2>
+			<r3>Mary E Gow</r3>
+			<r4>Jo Dorling</r4>
+			<r5>Geraldine R Forster</r5>
+			<r6>Christopher M Gould</r6>
+			<r7>Thomas F Lawrance</r7>
+			<r8>James White</r8>
+			<r9>Ruth E R Corney</r9>
+			<r10>David I Bassford</r10>
+			<r11>Samuel C Cave</r11>
+			<r12>Simon S Meyer</r12>
+            	</ringers>
+            	<conductor>Stephen J F Mitchell</conductor> 
+	</band>
+	<band>
+		<name>Southwark Cathedral (Gold)</name>
+		<rang>6</rang>
+		<mark>51</mark>
+		<speed>3h19</speed>
+		<touch>Lon12-2019_team6_Southwark-G.mp3</touch>
+		<photo>Southwark_Gold.jpg</photo>
+           	<ringers>
+            		<r1>Heather A Rayner</r1>
+			<r2>Mary E Gow</r2>
+			<r3>Hannah E Burton</r3>
+			<r4>Daniel E Hughes</r4>
+			<r5>Jason W Hughes</r5>
+			<r6>Thomas L Nagel</r6>
+			<r7>Christopher L Backhouse</r7>
+			<r8>Benjamin A Clive</r8>
+			<r9>Stephen J F Mitchell</r9>
+			<r10>Jeremy D Cheesman</r10>
+			<r11>Timothy R Forster</r11>
+			<r12>Michael J Uphill</r12>
+            	</ringers>
+            	<conductor>Michael J Uphill</conductor> 
+	</band>
+	<band>
+		<name>St Paul's Cathedral Guild</name>
+		<rang>7</rang>
+		<mark>77</mark>
+		<speed>3h16</speed>
+		<touch>Lon12-2019_team7_StPauls.mp3</touch>
+		<photo>StPauls.jpg</photo>
+            <ringers>
+            	<r1>Rebecca L Sugden</r1>
+		<r2>Paul N Mounsey</r2>
+		<r3>James J Watkins</r3>
+		<r4>Phillip R J Barnes</r4>
+		<r5>Ann White</r5>
+		<r6>Martin J Cansdale</r6>
+		<r7>David I Bassford</r7>
+		<r8>Henry D Coggill</r8>
+		<r9>Michael R Crockett</r9>
+		<r10>John I White</r10>
+		<r11>Nicholas D Brown</r11>
+		<r12>Paul J Tiebout</r12>
+            </ringers>
+            <conductor>Paul N Mounsey</conductor> 
+	</band>
+	<band>
+		<name>Ancient Society of College Youths (Phobos)</name>
+		<rang>8</rang>
+		<mark>88</mark>
+		<speed>3h18</speed>
+		<touch>Lon12-2019_team8_ASCY-P.mp3</touch>
+		<photo>ASCY_Phobos.jpg</photo>
+		<ringers>
+            		<r1>Tessa K Simpson</r1>
+			<r2>Rebecca L Sugden</r2>
+			<r3>Susan L Apter</r3>
+			<r4>Henry D Coggill</r4>
+			<r5>James H Foster</r5>
+			<r6>David E House</r6>
+			<r7>Leigh D G Simpson</r7>
+			<r8>Andrew J Graham</r8>
+			<r9>Simon S Meyer</r9>
+			<r10>John N Hughes-D'Aeth</r10>
+			<r11>Alistair A F Smith</r11>
+			<r12>Robert W Lee</r12>
+           	</ringers>
+		<conductor></conductor> 
+	</band>
+	<band>
+		<name>Cornhill</name>
+		<rang>9</rang>
+		<mark>85</mark>
+		<speed>3h23</speed>
+		<touch>Lon12-2019_team9_Cornhill.mp3</touch>
+		<photo>Cornhill.jpg</photo>
+		<ringers>
+           	 	<r1>Hannah L Taylor</r1>
+			<r2>Katherine J Firman</r2>
+			<r3>Christopher M Gould</r3>
+			<r4>Ryan S Noble</r4>
+			<r5>Christopher P G Rimmer</r5>
+			<r6>Anthony R Kench</r6>
+			<r7>Colin G Wright</r7>
+			<r8>Anthony J Bloomfield</r8>
+			<r9>Andrew M Hills</r9>
+			<r10>Stephen J Bailey</r10>
+			<r11>Neil Buswell</r11>
+			<r12>John N Hughes-D'Aeth</r12>
+            	</ringers>
+            	<conductor>Anthony R Kench</conductor> 
+	</band> 
+	<band>
+		<name>Society of Royal Cumberland Youths</name>
+		<rang>10</rang>
+		<mark>90</mark>
+		<speed>3h23</speed>
+		<touch>Lon12-2019_Team10_SRCY.mp3</touch>
+		<photo>SRCY.jpg</photo>
+		<ringers>
+           	 	<r1>Joanna K Dorling</r1>
+			<r2>Shirley E McGill</r2>
+			<r3>Michael R Crockett</r3>
+			<r4>David C Bath</r4>
+			<r5>Mary R Holden</r5>
+			<r6>Geraldine R Forster</r6>
+			<r7>Timothy R Forster</r7>
+			<r8>Ian G Mills</r8>
+			<r9>Stephen J Bailey</r9>
+			<r10>Adam S Greenley</r10>
+			<r11>Benjamin D Constant</r11>
+			<r12>Thomas B Mack</r12>
+            	</ringers>
+            	<conductor>Benjamin D Constant</conductor> 
+	</band> 
+	</result>
+</results>

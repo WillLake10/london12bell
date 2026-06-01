@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="pics2013">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/www.london12bellcomp.org.uk/pictures/pics2013.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>

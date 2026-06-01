@@ -1,0 +1,382 @@
+body
+{
+	margin: 0;
+	padding: 0;
+	font-size: 80%;
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+}
+
+#header
+{
+	float: left;
+	width: 100%;
+	background-color: #000080;
+	margin: 0em;
+	padding: 0.5em 0em 0em 0em;
+	color: #FFFFFF;
+	background-image: url('images/roofline.png');
+	background-repeat: repeat-x;
+	background-position: bottom;
+}
+
+#header h1, h2
+{
+	margin: 0;
+	padding: 0;
+	font-weight: normal;
+}
+
+#header h1.title
+{
+	font-size: 250%;
+	margin-top: 1em;
+}
+
+#header h2.subtitle
+{
+	font-family: Serif;
+	font-style: italic;
+	font-size: 125%;
+}
+
+#headerleft
+{
+	float: left;
+	width: 70%;
+}
+
+#headerleft img
+{
+	float: left;
+	margin: 0.5em 3em 0.5em 1.5em;
+}
+
+#headerright
+{
+	float: right;
+	margin: 2.3em 3em 0 0;
+	text-align: right;
+}
+
+#headerright p
+{
+	margin: 0;
+}
+
+#skyline
+{
+	float: right;
+	clear: right;
+	width: 830px;
+	margin: 0;
+	padding: 0;
+}
+
+#skyline img
+{
+	height: 50px;
+}
+
+#leftmenu
+{
+	color: #FFFFFF;
+	float: left;
+	margin: 4em 1em 1em 2em;
+	padding: 0;
+	width: 12.5em;
+	color: white;
+	background-color: #000080;
+}
+
+#logout
+{
+	color: #FFFFFF;
+	float: left;
+	clear: left;
+	margin: -0.5em 1em 1em 2em;
+	padding: 0;
+	width: 12em;
+	color: white;
+	background-color: #000080;
+}
+
+#leftmenu ul
+{
+	margin:  1em 1em 1em 1em;
+	padding: 0em;
+	list-style: none;
+	width: 100%;
+}
+
+#logout p
+{
+	margin:  0.2em 0.5em 0.2em 2em;
+	padding: 0;
+}
+
+#leftmenu ul li
+{
+	margin: 0.2em 0 0.4em 0;
+	padding-top: 0.2em;
+	text-decoration: none;
+}
+
+#leftmenu ul li a
+{
+	text-decoration: none;
+	padding: 5px;
+}
+
+#leftmenu ul li a:link, #logout a:link
+{
+	color: white;
+}
+
+
+#leftmenu ul li a:visited, #logout a:visited
+{
+	color: white;
+}
+
+#leftmenu ul li a:active, #logout a:active
+{
+	color: #DD1111;
+}
+
+#leftmenu ul li a:hover, #logout a:hover
+{
+	color: #DD1111;
+}
+
+#leftmenu ul li.selected a
+{
+	background-color: #0000B0;
+}
+
+#loginform
+{
+	text-align: right;
+}
+
+#maindiv
+{
+	float: left;
+	margin-bottom: 3em;
+}
+
+#contentdiv
+{
+	padding-top: 2em;
+	margin: 0 4em 0 18em;
+}
+
+#contentdiv h1, #contentdiv h2, #contentdiv h3
+{
+	font-weight: normal;
+	color: #2F4F4F;
+}
+
+#contentdiv p
+{
+	margin: 2em 0 2em 0;
+}
+
+#contentdiv div {
+	float: left;
+}
+
+.resultstable, .bandlist
+{
+	text-align: left;
+	margin: 2em 0.5em;
+	border-collapse:collapse;
+}
+
+.resultstable th, .resultstable td, .bandlist th, .bandlist td
+{
+	padding: 0.2em 2em 0.4em 0.3em;
+
+}
+
+.resultstable th, .bandlist th
+{
+	background-color: #97A7A7;
+	border: 0px solid white;
+}
+
+.resultstable td, .bandlist td
+{
+	background-color: #C1CACA;
+	border: 1px solid white;
+}
+
+.resultstable td.button
+{
+	padding: 0.5em;
+}
+
+.resultstable td.button a img
+{
+	border: none;	
+}
+
+table.touch
+{
+	border-collapse: collapse;
+	padding: 0;
+	border: 0px;
+	margin: 2em 0 2em 0;
+}
+
+table.touch td
+{
+	padding: 0 1.5em 0 0;
+}
+
+table.touch td.change
+{
+	text-align: center;
+}
+
+ul.bands
+{
+	list-style: none;
+	padding-left: 0;
+}
+
+.ruleheader
+{
+	clear: left;
+}
+
+.rule
+{
+	margin-top: 1em;
+	margin-bottom: 1em;
+}
+
+.ruletext
+{
+	padding-left: 3em;
+}
+.ruleno
+{
+	float: left;
+}
+
+.error_message
+{
+	font-weight: bold;
+	color: red;
+}
+
+dl.contacts
+{
+	float: left;
+	width: 520px;
+	margin: 1em 0;
+	padding: 0;
+	border-bottom: 1px solid #97A7A7;
+}
+
+dl.contacts dt
+{
+	clear: left;
+	float: left;
+	width: 200px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #97A7A7;
+	font-weight: bold;
+}
+
+dl.contacts dd
+{
+	float: left;
+	width: 300px;
+	margin: 0;
+	padding: 5px;
+	border-top: 1px solid #97A7A7;
+}
+
+img.intext
+{
+	float: left;
+	margin-top: 1em;
+	margin-right: 2em;
+	margin-bottom: 2em;
+}
+
+img.bandphoto
+{
+	margin-top: 2em;
+	margin-left: 2em;
+	margin-right: 2em;
+}
+
+.bandoverlay
+{
+	width: 660px;
+	float: left;
+	background-color: #97A7A7;
+	position: fixed;
+	left:50%;
+	margin-left: -325px;
+	top:50%;
+	margin-top: -260px;
+	z-index: 10;
+	border: 1px solid #FFFFFF;
+}
+
+.bandoverlay div
+{
+        width: 640px;
+	background-color: #FFFFFF;
+	text-align: center;
+	z-index: 11;
+	border: 5px solid #97A7A7;
+	padding: 5px;
+}
+
+.bandoverlay img
+{
+	height: 300px;
+	width: 450x;
+}
+
+.bandoverlay h2
+{
+	margin-top: 1em;
+}
+
+.bandoverlay p
+{
+	margin-bottom: 0em;	
+}
+
+.closeoverlay
+{
+	float: right;
+	width: 21px;
+	height: 22px;
+	background-image: url("images/closebutton.png");
+	background-repeat: none;
+	text-indent: -9999px;
+}
+
+.closeoverlay:hover
+{
+	cursor: pointer;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: centre;
+  padding: 8px;
+}

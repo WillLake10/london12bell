@@ -1,0 +1,237 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2022</year>
+  	    <venue>St. Paul's Cathedral</venue>
+        <band>
+		    <name>University of London Society of Change Ringers</name>
+		    <rang>9</rang>
+		    <mark>48</mark>
+		    <speed>3h53</speed>
+            <touch>Lon12-2022_team9_ULSCR.mp3</touch>
+            <photo>UL.JPG</photo>
+            <ringers>
+                <r1>Kate R Wallis</r1>
+			    <r2>Bethan L Hensman</r2>
+			    <r3>Toby C Hibbert</r3>
+			    <r4>Isaac W Johnson</r4>
+			    <r5>Josie M Godfrey</r5>
+			    <r6>Samuel Beech</r6>
+			    <r7>John G Hutchinson</r7>
+			    <r8>Tom Nagel</r8>
+			    <r9>James White</r9>
+			    <r10>Jason W Hughes</r10>
+			    <r11>Andrew M Hills</r11>
+			    <r12>Luke O Camden</r12>
+            </ringers>
+        <conductor>Bethan L Hensman </conductor> 
+	    </band>
+ 	    <band>
+		    <name>Croydon, Surrey</name>
+		    <rang>3</rang>
+		    <mark>62</mark>
+		    <speed>4h11</speed>
+            <touch>Lon12-2022_team3_Croydon.mp3</touch>
+            <photo>Croydon (Surrey).JPG</photo>
+		    <ringers>
+         	   	<r1>Caroline A Prescott</r1>
+			    <r2>Shirley E McGill</r2>
+			    <r3>Sheila M Cheesman</r3>
+			    <r4>David N Wallis</r4>
+			    <r5>Michael J Uphill </r5>
+			    <r6>Anne M Anthony</r6>
+			    <r7>Rebecca A Steed</r7>
+			    <r8>Jason W Hughes</r8>
+			    <r9>Paul J Flavell</r9>
+			    <r10>Philip P Ridley</r10>
+			    <r11>Anthony P Matthews</r11>
+			    <r12>Noel J R Gibbin</r12>
+           	</ringers>
+           	<conductor>Michael J Uphill</conductor> 
+	    </band>	       
+        <band>
+		    <name>Ancient Society of College Youths (Marchbank)</name>
+		    <rang>8</rang>
+		    <mark>92</mark>
+		    <speed>4h2</speed>
+            <touch>Lon12-2022_team8_ASCY-M.mp3</touch>
+		    <photo>ASCY (Marchbank).JPG</photo>
+		    <ringers>
+           	 	<r1>Tessa K Simpson</r1>
+			    <r2>Rebecca L Sugden</r2>
+			    <r3>Susan L Apter</r3>
+			    <r4>Adam A Brady</r4>
+			    <r5>Paul N Mounsey</r5>
+			    <r6>Henry D Coggill</r6>
+			    <r7>Michael A Williams</r7>
+			    <r8>Ryan S Noble</r8>
+			    <r9>James C Marchbank</r9>
+			    <r10>Alistair A F Smith</r10>
+			    <r11>Philip Rogers</r11>
+			    <r12>Simon S Meyer</r12>
+            </ringers>
+            <conductor>James C Marchbank</conductor> 
+	</band>
+	<band>
+		    <name>Ancient Society of College Youths (Bradford)</name>
+		    <rang>1</rang>
+		    <mark>63</mark>
+		    <speed>3h59</speed>
+            <touch>Lon12-2022_team1_ASCY-B.mp3</touch>
+		    <photo>ASCY (Cool Brad).JPG</photo>
+		    <ringers>
+           	 	<r1>Jemma L Meyer</r1>
+			    <r2>James J Watkins</r2>
+			    <r3>Jillian E Parker</r3>
+			    <r4>Richard B Pullin</r4>
+			    <r5>Martin J Cansdale</r5>
+			    <r6>Colin F Salter</r6>
+			    <r7>John P W Taylor</r7>
+			    <r8>Benjamin J Meyer</r8>
+			    <r9>Matthew E Rayner</r9>
+			    <r10>Leigh D G Simpson</r10>
+			    <r11>Andrew P F Bradford</r11>
+			    <r12>Robert W Lee</r12>
+            </ringers>
+            <conductor>James C Marchbank</conductor> 
+	</band>
+	<band>
+		<name>Middlesex County Association</name>
+		<rang>5</rang>
+		<mark>67</mark>
+		<speed>3h53</speed>
+		<touch>Lon12-2022_team5_MCALDG.mp3</touch>
+		<photo>Middlesex.JPG</photo>
+		<ringers>
+            <r1>Stephen J R Mitchell</r1>
+			<r2>Mary E Gow</r2>
+			<r3>Geraldine R Forster</r3>
+			<r4>Andrew D Hodgson</r4>
+			<r5>Michael F Leese</r5>
+			<r6>Michael J Palmer</r6>
+			<r7>Timothy R Palmer</r7>
+			<r8>Lucinda J Woodward</r8>
+			<r9>Thomas F Lawrance</r9>
+			<r10>David I Bassford</r10>
+			<r11>Simon L Meyer</r11>
+			<r12>James White</r12>
+        </ringers>
+        <conductor>Lucinda J Woodward</conductor> 
+	</band>
+	<band>
+		<name>St. Paul's Cathedral (Pineapple)</name>
+		<rang>4</rang>
+		<mark>84</mark>
+		<speed>4h2</speed>
+		<touch>Lon12-2022_team4_StPauls-P.mp3</touch>
+		<photo>Pineapple.JPG</photo>
+		<ringers>
+            <r1>Paul N Mounsey</r1>
+			<r2>Ann White</r2>
+			<r3>Tessa K Simpson</r3>
+			<r4>Jemma L Meyer</r4>
+			<r5>Henry D Coggill</r5>
+			<r6>Thomas B Mack</r6>
+			<r7>James J Watkins</r7>
+			<r8>Eleanor J Linford</r8>
+			<r9>David F Perkins</r9>
+			<r10>Simon Read</r10>
+			<r11>John I White</r11>
+			<r12>Alistair A F Smith</r12>
+        </ringers>
+        <conductor>Paul N Mounsey</conductor> 
+	</band>
+	<band>
+		<name>Southwark Cathedral</name>
+		<rang>6</rang>
+		<mark>83</mark>
+		<speed>4h1</speed>
+		<touch>Lon12-2022_team6_Southwark.mp3</touch>
+		<photo>Southwark.JPG</photo>
+		    <ringers>
+            	<r1>Sheila M Cheesman</r1>
+			    <r2>Heather A Rayner</r2>
+			    <r3>Michael J Uphill</r3>
+			    <r4>Jeremy D Cheesman</r4>
+			    <r5>Robert Sworder</r5>
+			    <r6>Hannah L Taylor</r6>
+			    <r7>Stephen J F Mitchell</r7>
+			    <r8>Rebecca L Steed</r8>
+			    <r9>Simon D Roberts</r9>
+			    <r10>Anthony P Matthews</r10>
+			    <r11>Luke O Camden</r11>
+			    <r12>Matthew E Rayner</r12>
+            </ringers>
+            <conductor>Luke O Camden</conductor> 
+	</band>
+	<band>
+		<name>St Paul's Cathedral Guild (Dome)</name>
+		<rang>10</rang>
+		<mark>86</mark>
+		<speed>4h1</speed>
+		<touch>Lon12-2022_team10_StPauls-D.mp3</touch>
+		<photo>Dome.JPG</photo>
+        <ringers>
+            <r1>Susan L Apter</r1>
+			<r2>Christopher P G Rimmer</r2>
+			<r3>David I Bassford</r3>
+			<r4>Rebecca L Sugden</r4>
+			<r5>Nicholas D Brown</r5>
+			<r6>Benjamin J Meyer</r6>
+			<r7>Martin J Cansdale</r7>
+			<r8>Leigh D G Simpson</r8>
+			<r9>Lucinda J Woodward</r9>
+			<r10>James C Marchbank</r10>
+			<r11>Paul J Tiebout</r11>
+			<r12>Philip Rogers</r12>
+        </ringers>
+        <conductor>Martin J Cansdale</conductor> 
+	</band>
+	<band>
+		<name>Cornhill</name>
+		<rang>2</rang>
+		<mark>76</mark>
+		<speed>4h8</speed>
+		<touch>Lon12-2022_team2_Cornhill.mp3</touch>
+		<photo>Cornhill.JPG</photo>
+		<ringers>
+           	<r1>Hannah L Taylor</r1>
+			<r2>Samantha J Hovey</r2>
+			<r3>Christopher M Gould</r3>
+			<r4>Christopher P G Rimmer</r4>
+			<r5>Colin G Wright</r5>
+			<r6>Ryan S Noble</r6>
+			<r7>Martin C Faulkes</r7>
+			<r8>David F Perkins</r8>
+			<r9>Neil Buswell</r9>
+			<r10>Stephen J Bailey</r10>
+			<r11>John N Hughes D'Aeth</r11>
+			<r12>Andrew M Hills</r12>
+        </ringers>
+        <conductor>John N Hughes D'Aeth</conductor> 
+	</band> 
+	<band>
+		<name>Society of Royal Cumberland Youths</name>
+		<rang>7</rang>
+		<mark>87</mark>
+		<speed>4h1</speed>
+		<touch>Lon12-2022_team7_SRCY.mp3</touch>
+		<photo>SRCY.JPG</photo>
+		<ringers>
+           	<r1>Shirley E McGill</r1>
+			<r2>Geraldine R Forster</r2>
+			<r3>David C Bath</r3>
+			<r4>Jack E Page </r4>
+			<r5>Ian G Mills</r5>
+			<r6>Mary E Holden</r6>
+			<r7>Ruth E R Corney</r7>
+			<r8>Benjamin D Constant</r8>
+			<r9>Douglas J Beaumont</r9>
+			<r10>Nicholas D Brown</r10>
+			<r11>Thomas B Mack</r11>
+			<r12>Samuel C Cave</r12>
+        </ringers>
+        <conductor>Jack E Page</conductor> 
+	</band> 
+	</result>
+</results>

@@ -1,0 +1,237 @@
+﻿<?xml version="1.0" encoding='UTF-8'?>
+<results>
+    <result>
+        <year>2025</year>
+        <venue>St. Michael, Cornhill</venue>
+        <band>
+            <name>Cornhill</name>
+            <rang>1</rang>
+            <mark>81</mark>
+            <speed>3h35</speed>
+            <touch>Lon12-2025-team1_Cornhill.mp3</touch>
+            <photo>cornhill.jpg</photo>
+            <ringers>
+                <r1>Christopher M Gould</r1>
+                <r2>Catherine N Merlane</r2>
+                <r3>Elizabeth A Burton</r3>
+                <r4>Anne M Anthony</r4>
+                <r5>Ryan S Noble</r5>
+                <r6>Anthony J Bloomfield</r6>
+                <r7>David F Perkins</r7>
+                <r8>Matthew A Child</r8>
+                <r9>Stephen J Bailey</r9>
+                <r10>Neil Buswell</r10>
+                <r11>Andrew M Hills</r11>
+                <r12>Mark E R Gill</r12>
+            </ringers>
+            <conductor>Andrew M Hills</conductor>
+        </band>
+        <band>
+            <name>St Paul's Cathedral Guild</name>
+            <rang>2</rang>
+            <mark>76</mark>
+            <speed>3h42</speed>
+            <touch>Lon12-2025-team2_StPauls.mp3</touch>
+            <photo>stPauls.jpg</photo>
+            <ringers>
+                <r1>Rebecca L Sugden</r1>
+                <r2>Ann White</r2>
+                <r3>Christopher P G Rimmer</r3>
+                <r4>Jemma L Meyer</r4>
+                <r5>Philip R J Barnes</r5>
+                <r6>David I Bassford</r6>
+                <r7>Martin J Cansdale</r7>
+                <r8>James J Watkins</r8>
+                <r9>Eleanor J Linford</r9>
+                <r10>Lucinda J Woodward</r10>
+                <r11>Nicholas D Brown</r11>
+                <r12>John I White</r12>
+            </ringers>
+            <conductor>Martin J Cansdale</conductor>
+        </band>
+        <band>
+            <name>Ancient Society of College Youths</name>
+            <rang>3</rang>
+            <mark>75</mark>
+            <speed>3h40</speed>
+            <touch>Lon12-2025-team3_ASCY.mp3</touch>
+            <photo>collageYouths.jpg</photo>
+            <ringers>
+                <r1>Tessa K Simpson</r1>
+                <r2>Adam A Brady</r2>
+                <r3>Rebecca L Sugden</r3>
+                <r4>Susan L Apter</r4>
+                <r5>Richard B Pullin</r5>
+                <r6>Michael A Williams</r6>
+                <r7>Catherine E Hampson</r7>
+                <r8>James C Marchbank</r8>
+                <r9>Henry D Coggill</r9>
+                <r10>Ryan S Noble</r10>
+                <r11>Paul L Carless</r11>
+                <r12>Andrew P F Bradford</r12>
+            </ringers>
+            <conductor>Adam A Brady</conductor>
+        </band>
+        <band>
+            <name>Southwark Cathedral Red</name>
+            <rang>4</rang>
+            <mark>65</mark>
+            <speed>3h38</speed>
+            <touch>Lon12-2025-team4_Southwark-R.mp3</touch>
+            <photo>southwarkRed.jpg</photo>
+            <ringers>
+                <r1>Hannah L Taylor</r1>
+                <r2>Isaac W Johnson</r2>
+                <r3>Sheila M Cheesman</r3>
+                <r4>Heather A Rayner</r4>
+                <r5>Robert C Sworder</r5>
+                <r6>Luke D Perkins</r6>
+                <r7>Mark C Liebenrood</r7>
+                <r8>Vanessa V Mitchell</r8>
+                <r9>Simon D Roberts</r9>
+                <r10>James C Marchbank</r10>
+                <r11>Luke O Camden</r11>
+                <r12>Anthony J Bloomfield</r12>
+            </ringers>
+            <conductor>Luke O Camden</conductor>
+        </band>
+        <band>
+            <name>Middlesex County Association</name>
+            <rang>5</rang>
+            <mark>54</mark>
+            <speed>3h24</speed>
+            <touch>Lon12-2025-team5_MCALDG.mp3</touch>
+            <photo>middlesex.jpg</photo>
+            <ringers>
+                <r1>Mark C Liebenrood</r1>
+                <r2>Mary E Gow</r2>
+                <r3>Geraldine R Forster</r3>
+                <r4>Linda S Georgiades</r4>
+                <r5>Christopher M Gould</r5>
+                <r6>Andrew D Hodgson</r6>
+                <r7>Stephen J F Mitchell</r7>
+                <r8>Timothy R Palmer</r8>
+                <r9>James White</r9>
+                <r10>Thomas F Lawrance</r10>
+                <r11>David I Bassford</r11>
+                <r12>Michael F Leese</r12>
+            </ringers>
+            <conductor>Mark C Liebenrood</conductor>
+        </band>
+        <band>
+            <name>Surrey Association</name>
+            <rang>6</rang>
+            <mark>69</mark>
+            <speed>3h32</speed>
+            <touch>Lon12-2025-team6_Surrey.mp3</touch>
+            <photo>surrey.jpg</photo>
+            <ringers>
+                <r1>Anne Anthony</r1>
+                <r2>Sheila M Cheesman</r2>
+                <r3>Susan Gibbin</r3>
+                <r4>Michael J Uphill</r4>
+                <r5>Caroline A Prescott</r5>
+                <r6>Christopher Ridley</r6>
+                <r7>Jeremy D Cheesman</r7>
+                <r8>Jenny M Heyworth</r8>
+                <r9>Fraser A Storie</r9>
+                <r10>Philip P Ridley</r10>
+                <r11>Noel J R Gibbin</r11>
+                <r12>Mark Underwood</r12>
+            </ringers>
+            <conductor>Fraser A Storie</conductor>
+        </band>
+        <band>
+            <name>Southwark Cathedral Gold</name>
+            <rang>7</rang>
+            <mark>58</mark>
+            <speed>3h27</speed>
+            <touch>Lon12-2025-team7_Southwark-G.mp3</touch>
+            <photo>southwarkGold.jpg</photo>
+            <ringers>
+                <r1>Jeremy D Cheesman</r1>
+                <r2>Stephen J F Mitchell</r2>
+                <r3>Bethan L Hensman</r3>
+                <r4>Brian N Spurling</r4>
+                <r5>Caroline N Pawley</r5>
+                <r6>Rachel E Sworder</r6>
+                <r7>Anne F Hughes</r7>
+                <r8>Alexander D Lewis</r8>
+                <r9>William J Lake</r9>
+                <r10>Adam D Rebick</r10>
+                <r11>Cameron White-Spunner</r11>
+                <r12>Edmund J Wratten</r12>
+            </ringers>
+            <conductor>Cameron White-Spunner</conductor>
+        </band>
+        <band>
+            <name>Society of Royal Cumberland Youths A</name>
+            <rang>8</rang>
+            <mark>86</mark>
+            <speed>3h34</speed>
+            <touch>Lon12-2025-team8_SRCY.mp3</touch>
+            <photo>srcy.jpg</photo>
+            <ringers>
+                <r1>Kathryn L Carterl</r1>
+                <r2>Michael R Crockett</r2>
+                <r3>David C Bath</r3>
+                <r4>Catherine E Morley</r4>
+                <r5>Mary E Holden</r5>
+                <r6>Catherine N Merlane</r6>
+                <r7>Ian G Mills</r7>
+                <r8>Douglas J Beaumont</r8>
+                <r9>Ruth E R Corney</r9>
+                <r10>Benjamin D Constant</r10>
+                <r11>Thomas B Mack</r11>
+                <r12>Christian M Peckham</r12>
+            </ringers>
+            <conductor>Michael R Crockett</conductor>
+        </band>
+        <band>
+            <name>Society of Royal Cumberland Youths B</name>
+            <rang>9</rang>
+            <mark>73</mark>
+            <speed>3h30</speed>
+            <touch>Lon12-2025-team9_SRCY-B.mp3</touch>
+            <photo>ascy-b.jpg</photo>
+            <ringers>
+                <r1>Geraldine R Forster</r1>
+                <r2>Elizabeth A Hibbert</r2>
+                <r3>Penelope J V Sharpe</r3>
+                <r4>Fraser A Storie</r4>
+                <r5>Miles F E Baker</r5>
+                <r6>Daniel J Page</r6>
+                <r7>Russell A Brown</r7>
+                <r8>Andrew D Hodgson</r8>
+                <r9>Samuel C Cave</r9>
+                <r10>Nicholas D Brown</r10>
+                <r11>Stephen J Bailey</r11>
+                <r12>Adam W Kilgour</r12>
+            </ringers>
+            <conductor>Daniel J Page</conductor>
+        </band>
+        <band>
+            <name>University of London Society of Change Ringers</name>
+            <rang>10</rang>
+            <mark>68</mark>
+            <speed>3h28</speed>
+            <touch>Lon12-2025-team10_ULSCR.mp3</touch>
+            <photo>ulscr.jpg</photo>
+            <ringers>
+                <r1>Robert C Sworder</r1>
+                <r2>Katie E Abraham</r2>
+                <r3>Florence H P Lazenby</r3>
+                <r4>Bethan L Hensman</r4>
+                <r5>Clara M Waller</r5>
+                <r6>Isaac W Johnson</r6>
+                <r7>Alexander D Lewis</r7>
+                <r8>Euan R M Thomas</r8>
+                <r9>Richard B Pullin</r9>
+                <r10>Cameron White-Spunner</r10>
+                <r11>Martin J Cansdale</r11>
+                <r12>Luke O Camden</r12>
+            </ringers>
+            <conductor>Isaac W Johnson</conductor>
+        </band>
+    </result>
+</results>

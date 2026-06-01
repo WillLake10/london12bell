@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+	    <year>2012</year>
+        <venue>Croydon Minster</venue>
+        <band>
+            <name>Ancient Society of College Youths</name>
+            <rang>10</rang>
+            <mark>80</mark>
+            <speed>3h48</speed>
+        </band>
+        <band>
+            <name>Middlesex County Association &amp; London Diocesan Guild</name>
+            <rang>4</rang>
+            <mark>65.5</mark>
+            <speed>3h38</speed>
+        </band>
+        <band>
+            <name>Society of Royal Cumberland Youths</name>
+            <rang>2</rang>
+            <mark>67.5</mark>
+            <speed>3h36</speed>
+        </band>
+        <band>
+            <name>South Croydon</name>
+            <rang>1</rang>
+            <mark>56.5</mark>
+            <speed>3h36</speed>
+        </band>
+        <band>
+            <name>Southwark Cathedral 1</name>
+            <rang>7</rang>
+            <mark>70</mark>
+            <speed>3h40</speed>
+        </band>
+        <band>
+            <name>Southwark Cathedral 2</name>
+            <rang>9</rang>
+            <mark>55</mark>
+            <speed>3h35</speed>
+        </band>
+        <band>
+            <name>St Martin-in-the-Fields</name>
+            <rang>6</rang>
+            <mark>68</mark>
+            <speed>3h40</speed>
+        </band>
+        <band>
+            <name>St Michael's Cornhill</name>
+            <rang>5</rang>
+            <mark>84</mark>
+            <speed>3h45</speed>
+        </band>
+        <band>
+            <name>University of London Society of Change Ringers</name>
+            <rang>3</rang>
+            <mark>66</mark>
+            <speed>3h41</speed>
+        </band>
+        <band>
+            <name>St Paul&apos;s Cathedral</name>
+            <rang>8</rang>
+            <mark>85</mark>
+
+            <speed>3h47</speed>
+        </band>
+    </result>
+</results>

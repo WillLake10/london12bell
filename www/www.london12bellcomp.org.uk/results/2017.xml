@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding='UTF-8'?>
+<results>
+	<result>
+		<year>2017</year>
+		<venue>St Leonard's Shoreditch</venue>
+		<band>
+			<name>Ancient Society of College Youths</name>
+			<rang>1</rang>
+			<mark>63</mark>
+			<speed>3h25</speed>
+            <touch>ASCY2017.mp3</touch>
+            <photo>ascy.jpg</photo>
+		</band>
+		<band>
+			<name>Middlesex County Association &amp; London Diocesan Guild</name>
+			<rang>8</rang>
+			<mark>70</mark>
+			<speed>3h23</speed>
+			<touch>Middlesex2017.mp3</touch>
+			<photo>middlesex.jpg</photo>
+		</band>
+		<band>
+			<name>Society of Royal Cumberland Youths</name>
+			<rang>2</rang>
+			<mark>83</mark>
+			<speed>3h29</speed>
+			<touch>SRCY2017.mp3</touch>
+			<photo>srcy.jpg</photo>
+		</band>
+		<band>
+			<name>Croydon</name>
+			<rang>5</rang>
+			<mark>48</mark>
+			<speed>3h34</speed>
+			<touch>Croydon2017.mp3</touch>
+			<photo>croydon_surrey.jpg</photo>
+		</band>
+		<band>
+			<name>Southwark Cathedral</name>
+			<rang>3</rang>
+			<mark>59</mark>
+			<speed>3h30</speed>
+			<touch>Southwark2017.mp3</touch>
+			<photo>southwark.jpg</photo>
+		</band>
+		<band>
+			<name>St Michael's Cornhill</name>
+			<rang>7</rang>
+			<mark>80</mark>
+			<speed>3h38</speed>
+			<touch>Cornhill2017.mp3</touch>
+			<photo>cornhill.jpg</photo>
+		</band>
+		<band>
+			<name>St Paul's Cathedral</name>
+			<rang>4</rang>
+			<mark>75</mark>
+			<speed>3h20</speed>
+			<touch>StPauls2017.mp3</touch>
+			<photo>st_pauls.jpg</photo>
+		</band>
+		<band>
+			<name>University of London Society of Change Ringers</name>
+			<rang>6</rang>
+			<mark>65</mark>
+			<speed>3h26</speed>
+			<touch>UL2017.mp3</touch>
+			<photo>ul.jpg</photo>
+		</band>
+	</result>
+</results>
