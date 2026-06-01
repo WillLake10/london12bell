@@ -1,2 +1,0 @@
-# Exim filter <== AUTO
-pipe "srs-forward sjf.mitchell1@virginmedia.com"
