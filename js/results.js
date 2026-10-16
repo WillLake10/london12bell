@@ -79,10 +79,20 @@ function renderRingerGrid(band, ringers) {
   return `<div class="ringer-grid" style="grid-template-rows: repeat(${rowCount}, auto);">${items}</div>`;
 }
 
+// positions are like "1" or, for a tie, "2=" (see positionsWithTies);
+// keep the "=" but turn the number itself into an ordinal.
+function formatPosition(position) {
+  const tied = position.endsWith("=");
+  const number = parseInt(position, 10);
+  return `${ordinal(number)}${tied ? "=" : ""}`;
+}
+
 function bandDetailHtml(band) {
   const parts = [`<h2>${band.name}</h2>`];
 
-  const meta = [`Rang ${ordinal(band.rang)}`];
+  const meta = [];
+  if (band.position) meta.push(`Position ${formatPosition(band.position)}`);
+  meta.push(`Rang ${ordinal(band.rang)}`);
   if (band.speed) meta.push(`Speed ${band.speed}`);
   parts.push(`<p class="band-meta">${meta.join(" &middot; ")}</p>`);
 
@@ -202,8 +212,8 @@ async function renderTable(container, year, venue, bands) {
 
   container.querySelectorAll("button[data-band-index]").forEach((button) => {
     button.addEventListener("click", () => {
-      const band = ordered[Number(button.dataset.bandIndex)];
-      openBandModal({ ...band, year });
+      const index = Number(button.dataset.bandIndex);
+      openBandModal({ ...ordered[index], year, position: positions[index] });
     });
   });
 
