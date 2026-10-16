@@ -1,0 +1,70 @@
+{
+  "year": 2009,
+  "venue": "St Magnus the Martyr",
+  "intro": [
+    "Ten bands, representing eight societies or towers, took part in the inaugural London Twelve Bell Striking Competition. The competition was held on Saturday 24th October on the new ring at St Magnus the Martyr, and was judged by David Pipe and Philip Earis. The Whitechapel Trophy was won by the Ancient Society of College Youths. Full results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Southwark Cathedral",
+      "rang": 1,
+      "mark": 63,
+      "speed": "3h26"
+    },
+    {
+      "name": "South Croydon",
+      "rang": 2,
+      "mark": 45,
+      "speed": "3h24"
+    },
+    {
+      "name": "Kingston-upon-Thames",
+      "rang": 3,
+      "mark": 35,
+      "speed": "3h21"
+    },
+    {
+      "name": "Ancient Society of College Youths (J)",
+      "rang": 4,
+      "mark": 75,
+      "speed": "3h26"
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 5,
+      "mark": 65,
+      "speed": "3h23"
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 6,
+      "mark": 81,
+      "speed": "3h30"
+    },
+    {
+      "name": "Southwark Cathedral (M)",
+      "rang": 7,
+      "mark": 72,
+      "speed": "3h23"
+    },
+    {
+      "name": "Ancient Society of College Youths",
+      "rang": 8,
+      "mark": 88,
+      "speed": "3h30"
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 9,
+      "mark": 60,
+      "speed": "3h34"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 10,
+      "mark": 61,
+      "speed": "3h29"
+    }
+  ]
+}

@@ -1,0 +1,28 @@
+{
+  "year": 2011,
+  "blocks": [
+    { "type": "image", "src": "shoreditch2.jpg", "alt": "Shoreditch", "height": 350 },
+    { "type": "paragraph", "runs": "The 2011 competition will take place on Saturday 22nd October at St Leonard's Shoreditch by kind invitation of the Society of Royal Cumberland Youths and enthusiastic permission of the Vicar, the Revd. Paul Turp. The chief judge this year is William R Haynes." },
+    { "type": "heading", "text": "Draw and ringing." },
+    { "type": "paragraph", "runs": "The draw will take place at 11am with the first band ringing at 11:30. Bands will ring at twenty minute intervals, with a twenty minute break at 13:10. It is expected that the results will announced at 16:30." },
+    { "type": "heading", "text": "Refreshments" },
+    { "type": "paragraph", "runs": "Tea, coffee, and bacon sandwiches will be available in the church hall (accessed via the church) from 10am until 1pm. Tea, coffee and cakes will be available during the afternoon. A beer tent will be open from immediately after the draw until the end of the competition. Drinking after this will move to the White Hart on the corner of Bishopsgate and Liverpool Street. Please help finish the beer and cider at the church first! The pub does food in to the evening and has up to 8 ales on tap. There is seating downstairs as well as at ground level, so please make use of both levels." },
+    { "type": "heading", "text": "The Competition Touch" },
+    { "type": "paragraph", "runs": "The test piece is 6 leads of Cambridge Surprise Maximus, coming round by plain hunting at the final lead-end. The last four leads of the test piece will be judged." },
+    { "type": "heading", "text": "Competing Bands" },
+    { "type": "paragraph", "runs": "The bands taking part in this year's competition are:" },
+    {
+      "type": "list",
+      "items": [
+        "Ancient Society of College Youths",
+        "Middlesex County Association & London Diocesan Guild",
+        "Society of Royal Cumberland Youths",
+        "South Croydon",
+        "Southwark (two bands)",
+        "St Martin-in-the-Fields",
+        "St. Michael's Cornhill",
+        "University of London Society of Change Ringers"
+      ]
+    }
+  ]
+}

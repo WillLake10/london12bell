@@ -1,0 +1,720 @@
+{
+  "year": 2010,
+  "venue": "St Mary-le-Bow",
+  "intro": [
+    "Ten bands representing nine societies or towers took part in the second London Twelve Bell Striking Competition. The competition was held on Saturday 31st October at St Mary-le-Bow, and was judged by Rick Shallcross and Tom Griffiths. The Whitechapel Trophy was won by the Ancient Society of College Youths. Full results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 1,
+      "mark": 50,
+      "speed": "3h30",
+      "photo": "MCA2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "1",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Stephen Mitchell",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Leon Thompson",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Elizabeth Hibbert",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Geraldine Forster",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Rona Joiner",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Stephen Jakeman",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Jonathan Slack",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Peter Blight",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Thomas Lawrance",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Michael Palmer",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Andrew Brown",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "James White",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 2,
+      "mark": 75,
+      "speed": "3h34",
+      "photo": "SMC2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "11",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Enid Lawson",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Stephen Waters",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Louisa Roughley",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Hannah Wilby",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "David Bassford",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Antony Kench",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Colin Wright",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "David Smith",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Andrew Agg",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Douglas Beaumont",
+          "missing": true
+        },
+        {
+          "bell": 11,
+          "name": "John Hughes-D'Aeth",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Roderick Horton",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 3,
+      "mark": 88,
+      "speed": "3h29",
+      "photo": "SRCY2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "9",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Joanna Dorling",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Shirley McGill",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Penelope Sharpe",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Edward Mack",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Mary Holden",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Benjamin Constant",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Barry Mack",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Adam Greenley",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Peter Harrison",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Ian Mills",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Douglas Beaumont",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Oliver Cross",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Ancient Society of College Youths (M)",
+      "rang": 4,
+      "mark": 91,
+      "speed": "3h35",
+      "photo": "CYM2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "8",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Tessa Beadman",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Joanna Ainsworth",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Katherine Town",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Charles Herriott",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Dickon Love",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Paul Tiebout",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Martin Cansdale",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "David House",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Simon Meyer",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Philip Goodyer",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Paul Carless",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "John Hughes-D'Aeth",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Ancient Society of College Youths (J)",
+      "rang": 5,
+      "mark": 73,
+      "speed": "3h31",
+      "photo": "CYJ2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "2",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Rebecca Sugden",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Nigel Herriott",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Catherine Hughes-D'Aeth",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Henry Coggill",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Iain Anderson",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Graham Bradshaw",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Terry Streeter",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Matthew Rayner",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Martin Faulkes",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Andrew Graham",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Philip Rogers",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "David Maynard",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 6,
+      "mark": 79,
+      "speed": "3h26",
+      "photo": "UL2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "5",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Katherine Town",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Tessa Beadman",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Elizabeth Stokoe",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Jennifer Lane",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Charles Herriott",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Nick Hartley",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Andrew Hills",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Martin Cansdale",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Andrew Graham",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Andrew Bradford",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Oliver Cross",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Rupert Littlewood",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "South Croydon",
+      "rang": 7,
+      "mark": 65,
+      "speed": "3h32",
+      "photo": "SC2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "10",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Shirley McGill",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Sheila Cheesman",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Ronald Diserens",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "John Armstrong",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Jim Diserens",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "David Bassford",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Jason Hughes",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Christopher Ridley",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "David Gibbons",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Michael Uphill",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Thomas Lawrance",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Michael Moreton",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 8,
+      "mark": 77,
+      "speed": "3h34",
+      "photo": "StP2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "8",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Joanna Ainsworth",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Rebecca Sugden",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Ann White",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Gwen Rogers",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Antony Kench",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Alan Ainsworth",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Eleanor Linford",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Christopher Forster",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Philip Rogers",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Paul Carless",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "John White",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Martin Faulkes",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 9,
+      "mark": 81,
+      "speed": "3h30",
+      "photo": "StMitF2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "9",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Elizabeth Hibbert",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Rona Joiner",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Fiona Wheeler",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Catherine Moore",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Andrew Hills",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Jonathan Galloway",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Luke Camden",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Andrew Brown",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Lucinda Woodward",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Henry Bettinson",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "David Woodward",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Ben Kipling",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Southwark Cathedral",
+      "rang": 10,
+      "mark": 70,
+      "speed": "3h16",
+      "photo": "Swk2010.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "2",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Sheila Cheesman",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Michael Uphill",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Heather Rayner",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "James Foster",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Matthew Rayner",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Jason Hughes",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Gavin Bennett",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Luke Camden",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Michael Palmer",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "David Maynard",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Ian Mills",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Andrew Bradford",
+          "missing": false
+        }
+      ]
+    }
+  ]
+}

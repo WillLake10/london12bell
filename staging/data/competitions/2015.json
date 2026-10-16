@@ -1,0 +1,38 @@
+{
+  "year": 2015,
+  "blocks": [
+    { "type": "paragraph", "runs": "The 2015 competition will take place on Saturday 24th October at St Giles Cripplegate, by kind permission of the rector, the Rev Katharine Rumens and tower secretary, Gwen Rogers. The chief judge is Andrew Mills, assisted by his wife Sharon." },
+    { "type": "heading", "text": "Draw and ringing." },
+    { "type": "paragraph", "runs": "The welcome and draw will take place at 10:30, and photographs of the bands will be taken immediately afterwards. The first band will ring at 11:30. Ringing will finish at 15:10, with results in the Butcher's Hook and Cleaver at around 16:30." },
+    { "type": "heading", "text": "Food and Drink" },
+    { "type": "paragraph", "runs": "The pub for the day is the Butchers Hook and Cleaver, on W Smithfield. The pub is opening especially for us." },
+    { "type": "heading", "text": "The Competition Touch" },
+    {
+      "type": "touch",
+      "intro": "The test piece is 251 Erin Cinques:",
+      "rows": [
+        ["2314567890E"],
+        ["41325678E90", "1 7"],
+        ["1243658709E", "s1 s3 4 5 6 7 s10 11 s14 15 16 (19)"],
+        ["3241658709E", "s7"],
+        ["Round at third handstroke."]
+      ]
+    },
+    { "type": "heading", "text": "Competing Bands" },
+    { "type": "paragraph", "runs": "The bands taking part in this year's competition are:" },
+    {
+      "type": "list",
+      "items": [
+        "Ancient Society of College Youths",
+        "Croydon",
+        "Middlesex County Association and London Diocesan Guild",
+        "St Martin-in-the-Fields",
+        "St Michael's, Cornhill",
+        "St Paul's Cathedral",
+        "Society of Royal Cumberland Youths",
+        "Southwark Cathedral (2 bands)",
+        "University of London Society of Change Ringers"
+      ]
+    }
+  ]
+}

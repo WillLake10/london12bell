@@ -1,0 +1,555 @@
+/* London 12 Bell Competition — mobile-first stylesheet.
+   Layout widens progressively at the breakpoints marked below. */
+
+:root {
+  --navy: #000080;
+  --navy-dark: #0000b0;
+  --accent: #dd1111;
+  --grey-light: #c1caca;
+  --grey-header: #97a7a7;
+  --text: #222;
+  --max-width: 1100px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: Verdana, Arial, Helvetica, sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  color: var(--text);
+}
+
+a {
+  color: var(--navy);
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+
+/* ---------- Site header ---------- */
+
+.site-header {
+  background-color: var(--navy);
+  background-image: url("../../images/roofline.png");
+  background-repeat: repeat-x;
+  background-position: bottom;
+  color: #fff;
+  padding: 1em 1em 0;
+}
+
+.site-header .header-top {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 0.5em;
+  padding-bottom: 1em;
+}
+
+.site-header img.trophy {
+  width: 72px;
+}
+
+.site-header img.skyline {
+  display: block;
+  width: 100%;
+  height: 50px;
+  object-fit: cover;
+  object-position: bottom;
+}
+
+.site-header h1 {
+  margin: 0;
+  font-size: 1.6rem;
+  font-weight: normal;
+}
+
+.site-header h2 {
+  margin: 0;
+  font-family: serif;
+  font-style: italic;
+  font-size: 1rem;
+  font-weight: normal;
+}
+
+.site-header .contest-banner {
+  font-size: 0.9rem;
+}
+
+.site-header .contest-banner p {
+  margin: 0.1em 0;
+}
+
+/* ---------- Navigation ---------- */
+
+.nav-toggle {
+  display: block;
+  width: 100%;
+  margin: 0;
+  padding: 0.75em 1em;
+  background-color: var(--navy-dark);
+  color: #fff;
+  border: none;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.site-nav {
+  background-color: var(--navy);
+}
+
+.site-nav > ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  display: none;
+  flex-direction: column;
+}
+
+.site-nav.open > ul {
+  display: flex;
+}
+
+.site-nav li a {
+  display: block;
+  padding: 0.75em 1em;
+  color: #fff;
+  text-decoration: none;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+}
+
+.site-nav li a:hover,
+.site-nav li a:focus {
+  color: var(--accent);
+}
+
+.site-nav li.selected > a,
+.site-nav li.nav-dropdown.selected summary {
+  background-color: var(--navy-dark);
+  font-weight: bold;
+}
+
+/* Past-results dropdown */
+
+.nav-dropdown summary {
+  display: block;
+  padding: 0.75em 1em;
+  color: #fff;
+  cursor: pointer;
+  border-top: 1px solid rgba(255, 255, 255, 0.15);
+  list-style: none;
+}
+
+.nav-dropdown summary::-webkit-details-marker {
+  display: none;
+}
+
+.nav-dropdown summary::after {
+  content: " \25BE";
+}
+
+.nav-dropdown summary:hover,
+.nav-dropdown summary:focus {
+  color: var(--accent);
+}
+
+.nav-dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--navy-dark);
+}
+
+.nav-dropdown ul li a {
+  padding-left: 2em;
+}
+
+/* ---------- Page layout ---------- */
+
+.page-body {
+  max-width: var(--max-width);
+  margin: 0 auto;
+  padding: 1.5em 1em 3em;
+}
+
+.page-body h1,
+.page-body h2,
+.page-body h3 {
+  font-weight: normal;
+  color: #2f4f4f;
+}
+
+.page-body p {
+  margin: 1em 0;
+}
+
+/* ---------- Results table ---------- */
+
+.table-scroll {
+  overflow-x: auto;
+  margin: 1.5em 0;
+  -webkit-overflow-scrolling: touch;
+}
+
+/* Mobile: only Position/Team/Mark/More Details show; the rest of the
+   old site's columns (Rang, Speed, Band Photos, Certificates, Audio)
+   are reachable through the More Details popup instead. */
+.resultstable .col-desktop {
+  display: none;
+}
+
+/* Mobile: abbreviated team names (data/band-name-abbreviations.json);
+   full names return once there's room, and always in the detail popup. */
+.resultstable .name-full {
+  display: none;
+}
+
+table.resultstable,
+table.bandlist {
+  border-collapse: collapse;
+  text-align: left;
+  min-width: 100%;
+  white-space: nowrap;
+}
+
+table.resultstable th,
+table.resultstable td,
+table.bandlist th,
+table.bandlist td {
+  padding: 0.5em 1em;
+}
+
+table.resultstable th,
+table.bandlist th {
+  background-color: var(--grey-header);
+  color: #fff;
+}
+
+table.resultstable td,
+table.bandlist td {
+  background-color: var(--grey-light);
+  border: 1px solid #fff;
+}
+
+.detail-button {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.35em;
+  border: none;
+  background-color: var(--navy);
+  color: #fff;
+  padding: 0.4em 0.8em;
+  border-radius: 999px;
+  font-size: 0.85rem;
+  cursor: pointer;
+}
+
+.detail-button svg {
+  width: 14px;
+  height: 14px;
+  flex-shrink: 0;
+}
+
+.detail-button:hover,
+.detail-button:focus {
+  background-color: var(--accent);
+}
+
+.play-button {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  width: 2.2em;
+  height: 2.2em;
+  border: none;
+  border-radius: 50%;
+  background-color: var(--navy);
+  color: #fff;
+  cursor: pointer;
+  padding: 0;
+}
+
+.play-button svg {
+  width: 16px;
+  height: 16px;
+}
+
+.play-button .icon-pause {
+  display: none;
+}
+
+.play-button.playing .icon-play {
+  display: none;
+}
+
+.play-button.playing .icon-pause {
+  display: block;
+}
+
+.play-button:hover,
+.play-button:focus,
+.play-button.playing {
+  background-color: var(--accent);
+}
+
+audio {
+  width: 100%;
+  max-width: 260px;
+}
+
+ul.bands {
+  list-style: none;
+  padding-left: 0;
+}
+
+/* ---------- Event info (data/home.json, competition "info" blocks) ---------- */
+/* Centered to match the original hand-typeset "Location / Date / Judges
+   / Test Piece" panel on the homepage and the 2025 competition page. */
+
+dl.event-info {
+  margin: 1em 0;
+  text-align: center;
+}
+
+dl.event-info dt {
+  font-weight: bold;
+  margin-top: 1em;
+}
+
+dl.event-info dd {
+  margin: 0;
+}
+
+/* ---------- Test-piece method diagram ---------- */
+/* Each piece (the row grid, the legend, the notes) is centered on the
+   page as a block, but the text inside stays left-aligned - that's what
+   keeps the monospace columns lined up row to row (centering each row
+   on its own would pull same-length text apart). */
+
+.method-diagram {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 0.9rem;
+  margin: 1em auto;
+  width: fit-content;
+  max-width: 100%;
+}
+
+.diagram-row {
+  display: flex;
+  align-items: baseline;
+  gap: 1em;
+  padding: 0.15em 0;
+}
+
+.diagram-bold .diagram-change {
+  font-weight: bold;
+}
+
+.diagram-marker {
+  color: #555;
+}
+
+.diagram-rule hr {
+  width: 100%;
+  border: none;
+  border-top: 1px solid #999;
+  margin: 0.3em 0;
+}
+
+.diagram-legend,
+.diagram-notes {
+  font-size: 0.85rem;
+  margin: 0.5em 0 0;
+}
+
+.diagram-notes {
+  color: #555;
+  font-size: 0.75rem;
+}
+
+/* ---------- Test-piece "touch" table (competition pages) ---------- */
+
+table.touch {
+  border-collapse: collapse;
+  margin: 1em 0;
+}
+
+table.touch td {
+  padding: 0.2em 1.5em 0.2em 0;
+}
+
+/* ---------- Band-detail modal ---------- */
+
+.modal-backdrop {
+  position: fixed;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.6);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 1em;
+  z-index: 100;
+}
+
+.modal-backdrop[hidden] {
+  display: none;
+}
+
+.modal-content {
+  background: #fff;
+  border: 5px solid var(--grey-header);
+  padding: 1em;
+  max-width: 500px;
+  width: 100%;
+  max-height: 90vh;
+  overflow-y: auto;
+  text-align: center;
+  position: relative;
+}
+
+.modal-close {
+  position: absolute;
+  top: 0.3em;
+  right: 0.5em;
+  border: none;
+  background: none;
+  font-size: 1.5rem;
+  line-height: 1;
+  cursor: pointer;
+}
+
+.modal-content img.bandphoto {
+  margin: 1em 0;
+}
+
+.bandcaption {
+  text-align: left;
+}
+
+.band-meta {
+  color: #555;
+  font-size: 0.9rem;
+}
+
+/* ---------- Contacts page ---------- */
+
+dl.contacts {
+  margin: 1em 0;
+  padding: 0;
+}
+
+dl.contacts div {
+  display: flex;
+  flex-wrap: wrap;
+  border-top: 1px solid var(--grey-header);
+  padding: 0.5em 0;
+}
+
+dl.contacts dt {
+  font-weight: bold;
+  width: 100%;
+}
+
+dl.contacts dd {
+  margin: 0;
+  width: 100%;
+}
+
+/* ---------- Wider screens ---------- */
+
+@media (min-width: 700px) {
+  .site-header {
+    padding: 1em 2em 0;
+  }
+
+  .site-header .header-top {
+    flex-direction: row;
+    justify-content: space-between;
+    text-align: left;
+    padding-bottom: 1em;
+  }
+
+  .site-header .contest-banner {
+    text-align: right;
+  }
+
+  .nav-toggle {
+    display: none;
+  }
+
+  .site-nav > ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .site-nav li a,
+  .nav-dropdown summary {
+    border-top: none;
+    border-right: 1px solid rgba(255, 255, 255, 0.15);
+  }
+
+  .nav-dropdown {
+    position: relative;
+  }
+
+  .nav-dropdown ul {
+    position: absolute;
+    top: 100%;
+    left: 0;
+    min-width: 10em;
+    z-index: 20;
+    box-shadow: 0 0.3em 0.5em rgba(0, 0, 0, 0.3);
+  }
+
+  .nav-dropdown ul li a {
+    padding-left: 1em;
+    border-right: none;
+  }
+
+  table.resultstable,
+  table.bandlist {
+    white-space: normal;
+  }
+
+  .resultstable .col-desktop {
+    display: table-cell;
+  }
+
+  .resultstable .col-mobile {
+    display: none;
+  }
+
+  .resultstable .name-full {
+    display: inline;
+  }
+
+  .resultstable .name-short {
+    display: none;
+  }
+
+  dl.contacts div {
+    flex-wrap: nowrap;
+  }
+
+  dl.contacts dt {
+    width: 220px;
+  }
+
+  dl.contacts dd {
+    width: 320px;
+  }
+}
+
+@media (min-width: 900px) {
+  .page-body {
+    padding: 2em 2em 4em;
+  }
+}

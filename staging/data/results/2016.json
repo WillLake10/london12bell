@@ -1,0 +1,275 @@
+{
+  "year": 2016,
+  "venue": "St Sepulchre-without-Newgate",
+  "intro": [
+    "Nine bands representing eight societies or towers took part in the eighth London Twelve Bell Striking Competition. The competition was held at St Sepulchre-without-Newgate on Saturday October 22nd, judged by Linda Garton, John Loveless, and Simon Read.",
+    "Congratulations to the winning band, representing St Paul's Cathedral. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths (Aleph)",
+      "rang": 5,
+      "mark": 75,
+      "speed": "3h37",
+      "touch": "ASCYAleph2016.mp3",
+      "photo": "ASCY_Aleph2016.jpg"
+    },
+    {
+      "name": "Ancient Society of College Youths (Alpha)",
+      "rang": 1,
+      "mark": 86,
+      "speed": "3h31",
+      "touch": "ASCYAlpha2016.mp3",
+      "photo": "ASCY_Alpha2016.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "1",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Tessa K Beadman",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "John N Hughes-D’Aeth",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Stephen A Coaker",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Henry D Coggill",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Richard B Pullin",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Andrew J Graham",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Leigh D G Simpson",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "David E House",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Simon S Meyer",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Andrew P F Bradford",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Robert W Lee",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Oliver D Cross",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Croydon (Surrey)",
+      "rang": 8,
+      "mark": 65,
+      "speed": "3h24",
+      "touch": "CroydonSurrey2016.mp3",
+      "photo": "CroydonSurrey2016.jpg"
+    },
+    {
+      "name": "Middlesex County Association and London Diocesan Guild",
+      "rang": 7,
+      "mark": 83,
+      "speed": "3h31",
+      "touch": "Middlesex2016.mp3",
+      "photo": "Middlesex2016.jpg"
+    },
+    {
+      "name": "St Michael's, Cornhill",
+      "rang": 4,
+      "mark": 75,
+      "speed": "3h32",
+      "touch": "Cornhill2016.mp3",
+      "photo": "Cornhill2016.jpg"
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 9,
+      "mark": 89,
+      "speed": "3h37",
+      "touch": "StPauls2016.mp3",
+      "photo": "StPauls2016.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "2",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Rebecca L Sugden",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Paul N Mounsey",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Ann White",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Timothy E S Holmes",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Lucinda J Woodward",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Leigh D G Simpson",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Martin J Cansdale",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Thomas F Lawrance",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Henry D Coggill",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Martin C Faulkes",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Paul J Tiebout",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "John I White",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 3,
+      "mark": 87,
+      "speed": "3h33",
+      "touch": "SRCY2016.mp3",
+      "photo": "SRCY2016.jpg",
+      "photocaption": "Clockwise from front right:",
+      "conductor": "12",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Joanna K Dorling",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Shirley E McGill",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Heather M Forster",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Michael R Crockett",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Geraldine R Forster",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Mary E Holden",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Ian G Mills",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Douglas J Beaumont",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Stephen J Bailey",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Benjamin D Constant",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Alan Regin",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Thomas B Mack",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Southwark Cathedral",
+      "rang": 6,
+      "mark": 73,
+      "speed": "3h34",
+      "touch": "Southwark2016.mp3",
+      "photo": "Southwark2016.jpg"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 2,
+      "mark": 78,
+      "speed": "3h39",
+      "touch": "UL2016.mp3",
+      "photo": "UL2016.jpg"
+    }
+  ]
+}

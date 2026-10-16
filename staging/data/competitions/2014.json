@@ -1,0 +1,36 @@
+{
+  "year": 2014,
+  "blocks": [
+    { "type": "paragraph", "runs": "The 2014 competition will take place on Saturday 25th October at St Mary-le-Bow, by kind permission of the rector, The Rev George Bush and steeple keeper, Simon Meyer. The chief judge is David Dearnley, assisted by Jennifer Town and David House." },
+    { "type": "heading", "text": "Draw and ringing." },
+    { "type": "paragraph", "runs": "The draw will take place at 10:45, and photographs of the bands will be taken immediately afterwards. The first band will ring at 11:30. Ringing will finish at 15:10, with results in the church at around 16:30." },
+    { "type": "heading", "text": "Food and Drink" },
+    { "type": "paragraph", "runs": "The pub for the day is the Fine Line, on Bow Churchyard. Bacon butties will be on sale from 10am, and the pub is opening especially for us." },
+    { "type": "heading", "text": "The Competition Touch" },
+    {
+      "type": "touch",
+      "intro": "The test piece is 257 Stedman Cinques:",
+      "rows": [
+        ["2314567890E"],
+        ["41526378E90", "1 5 7 8 10 11 13 15 16 17 (20 sixes)"],
+        ["134265879E0", "s2 7 s10 s13 s15 s19"],
+        ["Round at second handstroke with a bob at one."]
+      ]
+    },
+    { "type": "heading", "text": "Competing Bands" },
+    { "type": "paragraph", "runs": "The bands taking part in this year's competition are:" },
+    {
+      "type": "list",
+      "items": [
+        "Ancient Society of College Youths (2 bands)",
+        "Middlesex County Association and London Diocesan Guild",
+        "St Martin-in-the-Fields",
+        "St Michael's, Cornhill",
+        "St Paul's Cathedral",
+        "Society of Royal Cumberland Youths",
+        "Southwark Cathedral (2 bands)",
+        "University of London Society of Change Ringers"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "year": 2011,
+  "venue": "St Leonard's Shoreditch",
+  "intro": [
+    "Nine bands representing eight societies or towers took part in the third London Twelve Bell Striking Competition. The competition was held on Saturday 22nd October at St Leonard's Shoreditch by kind invitation of the Society of Royal Cumberland Youths and enthusiastic permission of the Vicar, the Revd. Paul Turp. The chief judge was William Haynes, ably assisted by Alistair Smith. The Whitechapel Trophy was won by the band from St Michael's Cornhill. Full results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths",
+      "rang": 7,
+      "mark": 73.3
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 2,
+      "mark": 50.1
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 4,
+      "mark": 73.7
+    },
+    {
+      "name": "South Croydon",
+      "rang": 3,
+      "mark": 36.5
+    },
+    {
+      "name": "Southwark Cathedral 1",
+      "rang": 9,
+      "mark": 57.1
+    },
+    {
+      "name": "Southwark Cathedral 2",
+      "rang": 8,
+      "mark": 57.5
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 1,
+      "mark": 40.4
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 5,
+      "mark": 79.2
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 6,
+      "mark": 70.8
+    }
+  ]
+}

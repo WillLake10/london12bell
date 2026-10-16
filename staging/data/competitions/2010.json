@@ -1,0 +1,24 @@
+{
+  "year": 2010,
+  "blocks": [
+    { "type": "paragraph", "runs": "The 2010 competition will take place on Saturday 30th October at St Mary le Bow. Arrangements for the day have been made by Simon Meyer, the Steeplekeeper." },
+    { "type": "heading", "text": "Draw and ringing." },
+    { "type": "paragraph", "runs": "The draw will take place in the church at 11am with the first band ringing at 11:30. The results will be announced in church at 4:30pm. The bells will be available for open ringing between the end of the competition & the results and Simon will be happy to open the tower up to the roof if anyone would like to take in the view (and if the weather cooperates)." },
+    { "type": "heading", "text": "Refreshments" },
+    { "type": "paragraph", "runs": "The pub venue for the day will be The Fine Line diagonally across the churchyard. This should be an excellent location from which to hear the bells in comfortable surroundings which will just have been refurbished a few weeks before the competition. Teas, coffees, bacon rolls etc will be available here from 10am and a selection of food & real ale will be available during the day. Simon would encourage people to use this venue as they are opening especially for us, including bringing in extra supplies of beer. Toilets will be available both in The Fine Line & the church." },
+    { "type": "heading", "text": "Transport" },
+    { "type": "paragraph", "runs": "Parking in central London is not recommended but St Mary le Bow is just a couple of minutes walk from Bank underground (the church is actually signposted in the station), Cannon Street & City Thameslink stations with Liverpool Street being just a little further away." },
+    { "type": "heading", "text": "Judges" },
+    { "type": "paragraph", "runs": "The chief judge this year is Rick Shallcross who will be supported by Tom Griffiths. Adrian Udal will be recording the pieces to assist the judges in their deliberations." },
+    { "type": "heading", "text": "The Competition Touch" },
+    { "type": "paragraph", "runs": "The touch for the competition is 255 Stedman Cinques. The first eleven sixes will not be marked, with marking commencing as the sixth leaves the back." },
+    {
+      "type": "touch",
+      "rows": [
+        ["2314567890E", ""],
+        ["21436578E90", "1 5 7 8 10 11 s13 15 16"],
+        ["2143658709E", "2 s13 s15"]
+      ]
+    }
+  ]
+}

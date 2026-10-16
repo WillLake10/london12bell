@@ -1,0 +1,651 @@
+{
+  "year": 2018,
+  "venue": "St Michael's Cornhill",
+  "intro": [
+    "Nine bands took part in the tenth London Twelve Bell Striking Competition. The competition was held at St Michael's, Cornhill on Saturday 27th.October judged by David Brown and Cathy Hughes D'Aeth.",
+    "Congratulations to the winning band, representing the Society of Royal Cumberland Youths. Results are given below.."
+  ],
+  "outro": [
+    "Ancient Society of College Youths (e) did not complete the test piece."
+  ],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths (π)",
+      "rang": 6,
+      "mark": 79,
+      "speed": "3h35",
+      "touch": "Lon12-2018_team6_ASCY_pi.mp3",
+      "photo": "ASCY_pi.jpg",
+      "conductor": "Leigh D G Simpson",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Susan L Apter",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Ryan S Noble",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "James H Foster",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Jillian E Parker",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "David E House",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Tessa K Simpson",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Matthew J Rayner",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Leigh D G Simpson",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Simon S Meyer",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Andrew J Graham",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "John N Hughes D'Aeth",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Colin G Newman",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Ancient Society of College Youths (e)",
+      "rang": 3,
+      "mark": null,
+      "touch": "null.mp3",
+      "photo": "ASCY_e.jpg",
+      "conductor": "Henry D Coggill",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Henry D Coggill",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Graham G Firman",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Rebecca L Sugden",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Gwen Rogers",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "James J Watkins",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Benjamin J Meyer",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Jemma L Mills",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Philip P Ridley",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Paul N Mounsey",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Martin J Cansdale",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "James C Marchbank",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Philip Rogers",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Middlesex County Association and London Diocesan Guild",
+      "rang": 7,
+      "mark": 62,
+      "speed": "3h33",
+      "touch": "Lon12-2018_team7_MCALDG.mp3",
+      "photo": "MCALDG.jpg",
+      "conductor": "Stephen J F Mitchell",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Ruth E R Corney",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Joanna K Dorling",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Stephen J F Mitchell",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Timothy R Forster",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Geraldine R Forster",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Christopher D O'Mahony",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "David I Bassford",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Michael J Palmer",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Samuel C Cave",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Timothy R Palmer",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Simon S Meyer",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Lucinda J Woodward",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 2,
+      "mark": 82,
+      "speed": "3h38",
+      "touch": "Lon12-2018_team2_SRCY.mp3",
+      "photo": "SRCY.jpg",
+      "conductor": "Thomas B Mack",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Joanna K Dorling",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Shirley E McGill",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Geraldine R Forster",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Paul A Cammiade",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "David C Bath",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Adam S Greenley",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Mary E Holden",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Douglas J Beaumont",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Stephen J Bailey",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Bejamin D Constant",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Alan Regin",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Thomas B Mack",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Croydon, Surrey",
+      "rang": 9,
+      "mark": 58,
+      "speed": "3h38",
+      "touch": "Lon12-2018_team9_Croydon.mp3",
+      "photo": "Croydon_Surrey.jpg",
+      "conductor": "Michael J Uphill",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Sheila M Cheesman",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Caroline Prescott",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Jenny M Heyworth",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Shirley E McGill",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Chris Ridley",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "David N Wallis",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Michael J Uphill",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Jason W Hughes",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "David F Perkins",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Phillip P Ridley",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Noel J R Gibbin",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Anthony P Matthews",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "Southwark Cathedral",
+      "rang": 4,
+      "mark": 69,
+      "speed": "3h39",
+      "touch": "Lon12-2018_team4_Southwark.mp3",
+      "photo": "Southwark.jpg",
+      "conductor": "Matthew E Rayner",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Matthew E Rayner",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Rachel J Mitchell",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Sheila M Cheesman",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Heather A Rayner",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Joanna C Franklin",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Michael J Uphill",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "David F Perkins",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Benjamin A Clive",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Hannah L Taylor",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Luke O Camden",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Anthony P Matthews",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "James C Marchbank",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 5,
+      "mark": 77,
+      "speed": "3h32",
+      "touch": "Lon12-2018_team5_Cornhill.mp3",
+      "photo": "Cornhill.jpg",
+      "conductor": "Anthony R Kench",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Hannah L Taylor",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Katharine J Firman",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Christopher M Gould",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Ryan S Noble",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Christopher P G Rimmer",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Anthony R Kench",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Colin G Wright",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Anthony J Bloomfield",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Andrew M Hills",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Stephen J Bailey",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Neil Buswell",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "John N Hughes D'Aeth",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "St Paul's Cathedral Guild",
+      "rang": 1,
+      "mark": 75,
+      "speed": "3h36",
+      "touch": "Lon12-2018_team1_StPauls.mp3",
+      "photo": "St_Pauls.jpg",
+      "conductor": "Paul N Mounsey",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Rebecca L Sugden",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Paul N Mounsey",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Ann White",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Susan L Apter",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Martin J Cansdale",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "David I Bassford",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Leigh D G Simpson",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "Phillip R J Barnes",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Lucinda J Woodward",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Nicholas D Brown",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Paul J Tiebout",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "John I White",
+          "missing": false
+        }
+      ]
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 8,
+      "mark": 63,
+      "speed": "3h41",
+      "touch": "Lon12-2018_team8_ULSCR.mp3",
+      "photo": "UL.jpg",
+      "conductor": "Andrew M Hills",
+      "ringers": [
+        {
+          "bell": 1,
+          "name": "Christopher P G Rimmer",
+          "missing": false
+        },
+        {
+          "bell": 2,
+          "name": "Jemma L Mills",
+          "missing": false
+        },
+        {
+          "bell": 3,
+          "name": "Harriet J M A Armitage",
+          "missing": false
+        },
+        {
+          "bell": 4,
+          "name": "Thomas L Nagel",
+          "missing": false
+        },
+        {
+          "bell": 5,
+          "name": "Rachel J Mitchell",
+          "missing": false
+        },
+        {
+          "bell": 6,
+          "name": "Richard B Pullin",
+          "missing": false
+        },
+        {
+          "bell": 7,
+          "name": "Benjamin A Clive",
+          "missing": false
+        },
+        {
+          "bell": 8,
+          "name": "James J Watkins",
+          "missing": false
+        },
+        {
+          "bell": 9,
+          "name": "Alistair A F Smith",
+          "missing": false
+        },
+        {
+          "bell": 10,
+          "name": "Benjamin J Meyer",
+          "missing": false
+        },
+        {
+          "bell": 11,
+          "name": "Luke O Camden",
+          "missing": false
+        },
+        {
+          "bell": 12,
+          "name": "Andrew M Hills",
+          "missing": false
+        }
+      ]
+    }
+  ]
+}

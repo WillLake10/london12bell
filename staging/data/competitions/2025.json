@@ -1,0 +1,32 @@
+{
+  "year": 2025,
+  "blocks": [
+    {
+      "type": "info",
+      "items": [
+        { "label": "Location", "value": "St Martin-in-the-Fields" },
+        { "label": "Date", "value": "Saturday 25th October" },
+        { "label": "Judges", "value": { "lines": ["Mark Ecclestone (Chief Judge)", "Vicky Wilby"] } },
+        { "label": "Test Piece", "value": [{ "text": "247 of Erin Cinques", "href": "https://complib.org/composition/139767" }, "Composed by Lucinda J Woodward"] }
+      ]
+    },
+    {
+      "type": "method-diagram",
+      "rows": [
+        { "change": "1234567890E", "bold": true, "markers": ["6", "7"] },
+        { "rule": true },
+        { "change": "435261E7089", "markers": ["a"] },
+        { "change": "243561", "markers": ["-", "s", "(11)"] },
+        { "change": "(2143658709E)", "markers": ["b"] },
+        { "rule": true }
+      ],
+      "legend": [
+        "a = 1.s4.s6.s9.10-12.14 (19)",
+        "b = 1.s2.s6.8.s12 (12)"
+      ],
+      "notes": [
+        "Rounds with a Single"
+      ]
+    }
+  ]
+}

@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="London 12 Bell Competition details" />
+  <title>London 12 Bell Striking Competition</title>
+  <link rel="stylesheet" href="css/style.css" />
+</head>
+<body>
+  <script>document.body.dataset.page = "competition-" + new URLSearchParams(location.search).get("year");</script>
+  <header class="site-header" id="site-header"></header>
+  <button class="nav-toggle" id="nav-toggle" aria-expanded="false" aria-controls="site-nav">Menu ☰</button>
+  <nav class="site-nav" id="site-nav"></nav>
+
+  <main class="page-body" id="competition-content"></main>
+
+  <script src="js/layout.js"></script>
+  <script src="js/content.js"></script>
+  <script src="js/competition.js"></script>
+</body>
+</html>

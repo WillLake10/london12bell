@@ -1,0 +1,81 @@
+{
+  "year": 2015,
+  "venue": "St Giles Cripplegate",
+  "intro": [
+    "Ten bands representing nine societies or towers took part in the seventh London Twelve Bell Striking Competition. The competition was held at St Giles Cripplegate on Saturday October 24th, judged by Andrew and Sharon Mills.",
+    "Congratulations to the winning band, representing the Ancient Society of College Youths. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths",
+      "rang": 8,
+      "mark": 92,
+      "speed": "3h31",
+      "photo": "ASCY2015.jpg"
+    },
+    {
+      "name": "Croydon",
+      "rang": 4,
+      "mark": 63,
+      "speed": "3h24",
+      "photo": "Croydon2015.jpg"
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 5,
+      "mark": 78,
+      "speed": "3h21",
+      "photo": "Middlesex2015.jpg"
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 7,
+      "mark": 58,
+      "speed": "3h24",
+      "photo": "StMitF2015.jpg"
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 6,
+      "mark": 87,
+      "speed": "3h31",
+      "photo": "Cornhill2015.jpg"
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 10,
+      "mark": 80,
+      "speed": "3h24",
+      "photo": "StPauls2015.jpg"
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 9,
+      "mark": 89,
+      "speed": "3h25",
+      "photo": "SRCY2015.jpg"
+    },
+    {
+      "name": "Southwark Cathedral (S)",
+      "rang": 3,
+      "mark": 64,
+      "speed": "3h25",
+      "photo": "SouthwarkS2015.jpg"
+    },
+    {
+      "name": "Southwark Cathedral (J)",
+      "rang": 2,
+      "mark": 56,
+      "speed": "3h19",
+      "photo": "SouthwarkJ2015.jpg"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 1,
+      "mark": 60,
+      "speed": "3h30",
+      "photo": "UL2015.jpg"
+    }
+  ]
+}

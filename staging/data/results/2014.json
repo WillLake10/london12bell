@@ -1,0 +1,81 @@
+{
+  "year": 2014,
+  "venue": "St Mary-le-Bow",
+  "intro": [
+    "Ten bands representing eight societies or towers took part in the sixth London Twelve Bell Striking Competition. The competition was held at St Mary-le-Bow on Saturday October 25th, judged by David Dearnley, Jennie Town, and David House.",
+    "Congratulations to the winning band, representing the Ancient Society of College Youths. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths (M)",
+      "rang": 9,
+      "mark": 75,
+      "speed": "3h28",
+      "photo": "ASCYM2014.jpg"
+    },
+    {
+      "name": "Ancient Society of College Youths (S)",
+      "rang": 10,
+      "mark": 85,
+      "speed": "3h32",
+      "photo": "ASCYS2014.jpg"
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 5,
+      "mark": 55,
+      "speed": "3h31",
+      "photo": "MCA2014.jpg"
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 4,
+      "mark": 66,
+      "speed": "3h31",
+      "photo": "StMitF2014.jpg"
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 7,
+      "mark": 59,
+      "speed": "3h35",
+      "photo": "Chill2014.jpg"
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 3,
+      "mark": 68,
+      "speed": "3h40",
+      "photo": "StP2014.jpg"
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 8,
+      "mark": 77,
+      "speed": "3h25",
+      "photo": "SRCY2014.jpg"
+    },
+    {
+      "name": "Southwark Cathedral (S)",
+      "rang": 1,
+      "mark": 57,
+      "speed": "3h40",
+      "photo": "SwkS2014.jpg"
+    },
+    {
+      "name": "Southwark Cathedral (J)",
+      "rang": 2,
+      "mark": 55,
+      "speed": "3h20",
+      "photo": "SwkJ2014.jpg"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 6,
+      "mark": 61,
+      "speed": "3h44",
+      "photo": "UL2014.jpg"
+    }
+  ]
+}

@@ -1,0 +1,75 @@
+{
+  "year": 2017,
+  "venue": "St Leonard's Shoreditch",
+  "intro": [
+    "Eight bands took part in the ninth London Twelve Bell Striking Competition. The competition was held at St Leonard, Shoreditch on Saturday October 22nd, judged by Simon Linford, Jack Page, and Alistair Cherry.",
+    "Congratulations to the winning band, representing the Society of Royal Cumberland Youths. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths",
+      "rang": 1,
+      "mark": 63,
+      "speed": "3h25",
+      "touch": "ASCY2017.mp3",
+      "photo": "ascy.jpg"
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 8,
+      "mark": 70,
+      "speed": "3h23",
+      "touch": "Middlesex2017.mp3",
+      "photo": "middlesex.jpg"
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 2,
+      "mark": 83,
+      "speed": "3h29",
+      "touch": "SRCY2017.mp3",
+      "photo": "srcy.jpg"
+    },
+    {
+      "name": "Croydon",
+      "rang": 5,
+      "mark": 48,
+      "speed": "3h34",
+      "touch": "Croydon2017.mp3",
+      "photo": "croydon_surrey.jpg"
+    },
+    {
+      "name": "Southwark Cathedral",
+      "rang": 3,
+      "mark": 59,
+      "speed": "3h30",
+      "touch": "Southwark2017.mp3",
+      "photo": "southwark.jpg"
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 7,
+      "mark": 80,
+      "speed": "3h38",
+      "touch": "Cornhill2017.mp3",
+      "photo": "cornhill.jpg"
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 4,
+      "mark": 75,
+      "speed": "3h20",
+      "touch": "StPauls2017.mp3",
+      "photo": "st_pauls.jpg"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 6,
+      "mark": 65,
+      "speed": "3h26",
+      "touch": "UL2017.mp3",
+      "photo": "ul.jpg"
+    }
+  ]
+}

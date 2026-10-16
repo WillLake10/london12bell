@@ -1,0 +1,52 @@
+[
+  {
+    "pattern": "^Middlesex County Association\\s*(?:&|and)\\s*London Diocesan Guild(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Middlesex & LDG$1"
+  },
+  {
+    "pattern": "^Middlesex County Association(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Middlesex$1"
+  },
+  {
+    "pattern": "^St\\.?\\s*Paul's Cathedral(?:\\s+Guild)?(\\s.*)?$",
+    "flags": "i",
+    "replacement": "St Paul's$1"
+  },
+  {
+    "pattern": "^Southwark Cathedral(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Southwark$1"
+  },
+  {
+    "pattern": "^Society of Royal Cumberland Youths(\\s.*)?$",
+    "flags": "i",
+    "replacement": "SRCY$1"
+  },
+  {
+    "pattern": "^Ancient Society of College Youths(\\s.*)?$",
+    "flags": "i",
+    "replacement": "ASCY$1"
+  },
+  {
+    "pattern": "^University of London Society of Change\\s*Ringers(\\s.*)?$",
+    "flags": "i",
+    "replacement": "ULSCR$1"
+  },
+  {
+    "pattern": "^St\\.?\\s*Michael'?s,?\\s*Cornhill(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Cornhill$1"
+  },
+  {
+    "pattern": "^(?:South\\s+)?Croydon(?:,?\\s*\\(?Surrey\\)?)?(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Croydon$1"
+  },
+  {
+    "pattern": "^Surrey Association(\\s.*)?$",
+    "flags": "i",
+    "replacement": "Surrey$1"
+  }
+]

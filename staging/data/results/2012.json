@@ -1,0 +1,71 @@
+{
+  "year": 2012,
+  "venue": "Croydon Minster",
+  "intro": [
+    "Ten bands representing nine societies or towers took part in the fourth London Twelve Bell Striking Competition. The competition was held Croydon Minster on Saturday October 27th, judged by Robert and Patricia Newton and Tom Hinks.",
+    "Congratulations to the winning band, representing St Paul's Cathedral, and many thanks to Shirley McGill and all at Croydon Minster for organising a very enjoyable day. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Ancient Society of College Youths",
+      "rang": 10,
+      "mark": 80,
+      "speed": "3h48"
+    },
+    {
+      "name": "Middlesex County Association & London Diocesan Guild",
+      "rang": 4,
+      "mark": 65.5,
+      "speed": "3h38"
+    },
+    {
+      "name": "Society of Royal Cumberland Youths",
+      "rang": 2,
+      "mark": 67.5,
+      "speed": "3h36"
+    },
+    {
+      "name": "South Croydon",
+      "rang": 1,
+      "mark": 56.5,
+      "speed": "3h36"
+    },
+    {
+      "name": "Southwark Cathedral 1",
+      "rang": 7,
+      "mark": 70,
+      "speed": "3h40"
+    },
+    {
+      "name": "Southwark Cathedral 2",
+      "rang": 9,
+      "mark": 55,
+      "speed": "3h35"
+    },
+    {
+      "name": "St Martin-in-the-Fields",
+      "rang": 6,
+      "mark": 68,
+      "speed": "3h40"
+    },
+    {
+      "name": "St Michael's Cornhill",
+      "rang": 5,
+      "mark": 84,
+      "speed": "3h45"
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 3,
+      "mark": 66,
+      "speed": "3h41"
+    },
+    {
+      "name": "St Paul's Cathedral",
+      "rang": 8,
+      "mark": 85,
+      "speed": "3h47"
+    }
+  ]
+}

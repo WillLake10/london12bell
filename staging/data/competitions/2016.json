@@ -1,0 +1,27 @@
+{
+  "year": 2016,
+  "blocks": [
+    { "type": "paragraph", "runs": "The 2016 competition will take place on Saturday 22nd October at St Sepulchre-without-Newgate. The judges are Linda Garton, John Loveless, and Simon Read." },
+    { "type": "heading", "text": "Draw and ringing." },
+    { "type": "paragraph", "runs": "The welcome and draw will take place at 10:30, and photographs of the bands will be taken immediately afterwards. The first band will ring at 11:00. Ringing will finish at 14:30, with results in the Butcher's Hook and Cleaver at around 15:30." },
+    { "type": "heading", "text": "Food and Drink" },
+    { "type": "paragraph", "runs": "The pub for the day is the Butchers Hook and Cleaver, on W Smithfield. It will be open from 11:00, serving four real ales and food." },
+    { "type": "heading", "text": "The Competition Touch" },
+    { "type": "paragraph", "runs": "The test piece is 6 leads of Cambridge Surprise Maximus, finishing with a twelfths place lead end. All of the rows of the touch and the first row of rounds at the end will be judged." },
+    { "type": "heading", "text": "Competing Bands" },
+    { "type": "paragraph", "runs": "The bands taking part in this year's competition are:" },
+    {
+      "type": "list",
+      "items": [
+        "Ancient Society of College Youths (2 bands)",
+        "Croydon",
+        "Middlesex County Association and London Diocesan Guild",
+        "St Michael's, Cornhill",
+        "St Paul's Cathedral",
+        "Society of Royal Cumberland Youths",
+        "Southwark Cathedral",
+        "University of London Society of Change Ringers"
+      ]
+    }
+  ]
+}
