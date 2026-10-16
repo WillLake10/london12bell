@@ -4,6 +4,9 @@ import os
 import posixpath
 import socket
 import sys
+import base64
+import hashlib
+import hmac
 from pathlib import Path
 
 import paramiko
@@ -28,10 +31,27 @@ EXCLUDED = {".git", ".github", ".gitignore"}
 def log(message):
     logging.info(message)
 
+class FingerprintPolicy(paramiko.MissingHostKeyPolicy):
+    def missing_host_key(self, client, hostname, key):
+        expected = os.environ[
+            "SFTP_HOST_KEY_FINGERPRINT"
+        ].strip()
+
+        actual = "SHA256:" + base64.b64encode(
+            hashlib.sha256(key.asbytes()).digest()
+        ).decode("ascii").rstrip("=")
+
+        if not hmac.compare_digest(actual, expected):
+            raise paramiko.SSHException(
+                f"Host key fingerprint mismatch for {hostname}. "
+                "Check the configured fingerprint."
+            )
+
+        log(f"Verified SSH host key for {hostname}")
+
 def main():
     client = paramiko.SSHClient()
-    client.load_host_keys(os.path.expanduser("~/.ssh/known_hosts"))
-    client.set_missing_host_key_policy(paramiko.RejectPolicy())
+    client.set_missing_host_key_policy(FingerprintPolicy())
 
     try:
         log(f"Connecting to {HOST}:22")
