@@ -8,10 +8,9 @@ const RESULT_YEARS = [
 ];
 
 const STATIC_LINKS = [
-  { page: "contacts", href: "contacts.html", label: "Contact" },
   { page: "rules", href: "rules.html", label: "Competition Rules" },
   { page: "safeguarding", href: "safeguarding.html", label: "Safeguarding" },
-  { page: "facebook", href: "https://www.facebook.com/London-12-Bell-Competition-178006726438810/", label: "Facebook" },
+  { page: "contacts", href: "contacts.html", label: "Contact" },
 ];
 
 function currentPageId() {
@@ -41,7 +40,7 @@ async function renderHeader() {
         <div class="contest-banner">
           <p><strong>${upcoming.year} Contest:</strong></p>
           <p>${upcoming.date}</p>
-          <p>at ${upcoming.venue}</p>
+          <p>${upcoming.venue}</p>
         </div>
       ` : ""}
     </div>

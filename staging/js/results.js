@@ -63,6 +63,22 @@ function positionsWithTies(bands) {
   return positions;
 }
 
+// Ringers 1-6 in the left column, 7-12 in the right (grid-auto-flow:
+// column fills top-to-bottom then wraps to the next column, so this
+// only needs the row count - the ringers are already bell-ordered).
+function renderRingerGrid(band, ringers) {
+  if (!ringers.length) return "";
+  const rowCount = Math.ceil(ringers.length / 2);
+  const items = ringers
+    .map((r) => {
+      const isConductor = band.conductor === r.name || band.conductor === String(r.bell);
+      const missingNote = r.missing ? ' <span class="ringer-missing">(not in photo)</span>' : "";
+      return `<div>${r.bell}&nbsp;${r.name}${isConductor ? " (C)" : ""}${missingNote}</div>`;
+    })
+    .join("");
+  return `<div class="ringer-grid" style="grid-template-rows: repeat(${rowCount}, auto);">${items}</div>`;
+}
+
 function bandDetailHtml(band) {
   const parts = [`<h2>${band.name}</h2>`];
 
@@ -70,30 +86,13 @@ function bandDetailHtml(band) {
   if (band.speed) meta.push(`Speed ${band.speed}`);
   parts.push(`<p class="band-meta">${meta.join(" &middot; ")}</p>`);
 
-  if (band.photo) {
-    const ringerList = (band.ringers || [])
-      .filter((r) => !r.missing)
-      .map((r) => {
-        const isConductor = band.conductor === r.name || band.conductor === String(r.bell);
-        return `${r.bell}&nbsp;${r.name}${isConductor ? " (C)" : ""}`;
-      })
-      .join(", ");
-    const missing = (band.ringers || []).filter((r) => r.missing);
-    const missingLine = missing.length
-      ? `<br />Not in photograph: ${missing.map((r) => `${r.bell}&nbsp;${r.name}`).join(", ")}`
-      : "";
+  const ringers = band.ringers || [];
 
+  if (band.photo) {
     parts.push(`<img class="bandphoto" src="../images/bands/${band.year}/${band.photo}" alt="${band.name}" />`);
-    parts.push(`<p class="bandcaption">${band.photocaption ? band.photocaption + " " : ""}${ringerList}${missingLine}</p>`);
-  } else if (band.ringers) {
-    const rows = band.ringers
-      .map((r) => {
-        const isConductor = band.conductor === r.name || band.conductor === String(r.bell);
-        return `<tr><td>${r.bell}</td><td>${r.name}${isConductor ? " (C)" : ""}</td></tr>`;
-      })
-      .join("");
-    parts.push(`<table class="bandlist">${rows}</table>`);
+    if (band.photocaption) parts.push(`<p class="bandcaption">${band.photocaption}</p>`);
   }
+  parts.push(renderRingerGrid(band, ringers));
 
   if (band.touch) {
     parts.push(`<audio controls preload="metadata"><source src="../touches/${band.year}/${band.touch}" type="audio/mpeg" /></audio>`);
@@ -254,17 +253,14 @@ async function loadJson(path) {
   return response.json();
 }
 
-async function initResultsPage() {
-  const year = new URLSearchParams(location.search).get("year");
-
+// Renders a year's results into the standard #results-intro/
+// #results-table/#results-outro/#band-modal elements. Used by
+// results.html (year from the URL) and, once the home page switches
+// from "upcoming" to "results" mode (see home.js), by index.html too.
+async function renderResultsForYear(year) {
   const introEl = document.getElementById("results-intro");
   const outroEl = document.getElementById("results-outro");
   const tableEl = document.getElementById("results-table");
-
-  if (!year) {
-    introEl.innerHTML = "<p>No year specified.</p>";
-    return;
-  }
 
   const results = await loadJson(`data/results/${year}.json`);
 
@@ -275,10 +271,28 @@ async function initResultsPage() {
     outroEl.innerHTML = renderParagraphs(results.outro);
     await renderTable(tableEl, results.year, results.venue, results.bands);
   } else {
+    introEl.innerHTML = "";
+    outroEl.innerHTML = "";
     tableEl.innerHTML = "<p>Results are not available for this year.</p>";
   }
 
   wireModal();
 }
 
-document.addEventListener("DOMContentLoaded", initResultsPage);
+async function initResultsPage() {
+  const year = new URLSearchParams(location.search).get("year");
+  if (!year) {
+    document.getElementById("results-intro").innerHTML = "<p>No year specified.</p>";
+    return;
+  }
+  await renderResultsForYear(year);
+}
+
+// Only auto-run on results.html (a ?year= in the URL); when this script
+// is loaded on index.html instead, home.js calls renderResultsForYear()
+// itself once it knows whether home.json's mode calls for it.
+document.addEventListener("DOMContentLoaded", () => {
+  if (new URLSearchParams(location.search).has("year")) {
+    initResultsPage();
+  }
+});

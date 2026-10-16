@@ -14,8 +14,25 @@
 
   <main class="page-body" id="home-content"></main>
 
+  <!-- Shown instead of the above once data/home.json's "mode" is
+       "results" - see js/home.js. Same markup/ids as results.html so
+       results.js's rendering can be reused as-is. -->
+  <main class="page-body" id="home-results" hidden>
+    <div id="results-intro"></div>
+    <div id="results-table"></div>
+    <div id="results-outro"></div>
+  </main>
+
+  <div class="modal-backdrop" id="band-modal" hidden>
+    <div class="modal-content">
+      <button type="button" class="modal-close" aria-label="Close">&times;</button>
+      <div id="band-modal-content"></div>
+    </div>
+  </div>
+
   <script src="js/layout.js"></script>
   <script src="js/content.js"></script>
+  <script src="js/results.js"></script>
   <script src="js/home.js"></script>
 </body>
 </html>
