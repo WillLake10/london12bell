@@ -1,16 +1,16 @@
-
+import base64
+import hashlib
+import hmac
 import logging
 import os
 import posixpath
 import socket
+import subprocess
 import sys
-import base64
-import hashlib
-import hmac
-import hashlib
 from pathlib import Path
 
 import paramiko
+
 
 logging.basicConfig(
     level=logging.INFO,
@@ -18,56 +18,122 @@ logging.basicConfig(
     stream=sys.stdout,
 )
 
-# Enable Paramiko's connection and protocol diagnostics.
-logging.getLogger("paramiko").setLevel(logging.DEBUG)
+logging.getLogger("paramiko").setLevel(logging.WARNING)
 
 HOST = os.environ["SFTP_HOST"]
 USERNAME = os.environ["SFTP_USERNAME"]
 PASSWORD = os.environ["SFTP_PASSWORD"]
 REMOTE_ROOT = os.environ["SFTP_REMOTE_PATH"].rstrip("/") or "/"
-LOCAL_ROOT = Path(".").resolve()
+EXPECTED_FINGERPRINT = os.environ[
+    "SFTP_HOST_KEY_FINGERPRINT"
+].strip()
 
+PREVIOUS_SHA = os.environ.get("PREVIOUS_SHA", "").strip()
+CURRENT_SHA = os.environ["CURRENT_SHA"]
+
+LOCAL_ROOT = Path(".").resolve()
 EXCLUDED = {".git", ".github", ".gitignore"}
+
 
 def log(message):
     logging.info(message)
 
+
 class FingerprintPolicy(paramiko.MissingHostKeyPolicy):
     def missing_host_key(self, client, hostname, key):
-        expected = os.environ[
-            "SFTP_HOST_KEY_FINGERPRINT"
-        ].strip()
-
         actual = "SHA256:" + base64.b64encode(
             hashlib.sha256(key.asbytes()).digest()
         ).decode("ascii").rstrip("=")
 
-        if not hmac.compare_digest(actual, expected):
+        if not hmac.compare_digest(
+            actual, EXPECTED_FINGERPRINT
+        ):
             raise paramiko.SSHException(
                 f"Host key fingerprint mismatch for {hostname}. "
-                "Check the configured fingerprint."
+                "Verify SFTP_HOST_KEY_FINGERPRINT."
             )
 
         log(f"Verified SSH host key for {hostname}")
 
-def sha256_local(path):
-    digest = hashlib.sha256()
 
-    with open(path, "rb") as file:
-        for chunk in iter(lambda: file.read(1024 * 1024), b""):
-            digest.update(chunk)
+def get_changed_files():
+    if PREVIOUS_SHA:
+        log(f"Finding changes since {PREVIOUS_SHA}")
 
-    return digest.hexdigest()
+        result = subprocess.run(
+            [
+                "git",
+                "diff",
+                "--name-only",
+                "-z",
+                "--diff-filter=ACMRT",
+                PREVIOUS_SHA,
+                CURRENT_SHA,
+                "--",
+            ],
+            cwd=LOCAL_ROOT,
+            check=True,
+            capture_output=True,
+        )
+
+        paths = result.stdout.decode("utf-8").split("\0")
+
+    else:
+        log("No previous deployment recorded; deploying all tracked files")
+
+        result = subprocess.run(
+            ["git", "ls-files", "-z"],
+            cwd=LOCAL_ROOT,
+            check=True,
+            capture_output=True,
+        )
+
+        paths = result.stdout.decode("utf-8").split("\0")
+
+    files = []
+
+    for relative in paths:
+        if not relative:
+            continue
+
+        relative_path = Path(relative)
+
+        if any(part in EXCLUDED for part in relative_path.parts):
+            continue
+
+        local_file = LOCAL_ROOT / relative_path
+
+        # Deleted files are deliberately ignored.
+        if local_file.is_file():
+            files.append(local_file)
+
+    return sorted(files)
 
 
-def sha256_remote(sftp, path):
-    digest = hashlib.sha256()
+def ensure_remote_directory(sftp, directory):
+    missing = []
+    current = directory
 
-    with sftp.open(path, "rb") as file:
-        for chunk in iter(lambda: file.read(1024 * 1024), b""):
-            digest.update(chunk)
+    while current and current != REMOTE_ROOT:
+        try:
+            sftp.stat(current)
+            break
+        except OSError as exc:
+            if getattr(exc, "errno", None) not in (2, 3):
+                raise
 
-    return digest.hexdigest()
+            missing.append(current)
+            parent = posixpath.dirname(current)
+
+            if parent == current:
+                raise
+
+            current = parent
+
+    for path in reversed(missing):
+        log(f"Creating directory: {path}")
+        sftp.mkdir(path)
+
 
 def main():
     client = paramiko.SSHClient()
@@ -88,77 +154,39 @@ def main():
             look_for_keys=False,
         )
 
-        log("SSH authentication successful; opening SFTP")
+        log("SFTP connection authenticated")
         sftp = client.open_sftp()
 
         try:
             log(f"Checking remote directory: {REMOTE_ROOT}")
             sftp.stat(REMOTE_ROOT)
-            log("Remote directory exists")
 
-            files = [
-                p for p in LOCAL_ROOT.rglob("*")
-                if p.is_file()
-                and not any(part in EXCLUDED for part in p.relative_to(LOCAL_ROOT).parts)
-            ]
-
-            log(f"Found {len(files)} files to upload")
-
+            files = get_changed_files()
+            log(f"Files to upload: {len(files)}")
 
             for local_file in files:
                 relative = local_file.relative_to(
                     LOCAL_ROOT
                 ).as_posix()
+
                 remote_file = posixpath.join(
                     REMOTE_ROOT, relative
                 )
-                parent = posixpath.dirname(remote_file)
 
-                # Create any missing parent directories.
-                missing = []
-                current = parent
+                ensure_remote_directory(
+                    sftp,
+                    posixpath.dirname(remote_file),
+                )
 
-                while current and current != REMOTE_ROOT:
-                    try:
-                        sftp.stat(current)
-                        break
-                    except OSError as exc:
-                        if getattr(exc, "errno", None) not in (2, 3):
-                            raise
+                size = local_file.stat().st_size
+                log(f"Uploading {relative} ({size} bytes)")
 
-                        missing.append(current)
-                        next_dir = posixpath.dirname(current)
+                sftp.put(
+                    str(local_file),
+                    remote_file,
+                    confirm=True,
+                )
 
-                        if next_dir == current:
-                            raise
-
-                        current = next_dir
-
-                for directory in reversed(missing):
-                    log(f"Creating directory: {directory}")
-                    sftp.mkdir(directory)
-
-                # Check whether the remote file already exists.
-                try:
-                    remote_stat = sftp.stat(remote_file)
-                except OSError as exc:
-                    if getattr(exc, "errno", None) not in (2, 3):
-                        raise
-
-                    remote_stat = None
-
-                local_size = local_file.stat().st_size
-
-
-                if remote_stat is not None and remote_stat.st_size == local_size:
-                    local_hash = sha256_local(local_file)
-                    remote_hash = sha256_remote(sftp, remote_file)
-
-                    if local_hash == remote_hash:
-                        continue
-
-                log(f"Uploading {relative} ({local_size} bytes)")
-                sftp.put(str(local_file), remote_file)
                 log(f"Uploaded: {relative}")
 
             log("Deployment completed successfully")
@@ -166,11 +194,18 @@ def main():
         finally:
             sftp.close()
 
-    except (paramiko.SSHException, OSError, socket.timeout) as exc:
+    except (
+        paramiko.SSHException,
+        OSError,
+        socket.timeout,
+        subprocess.CalledProcessError,
+    ) as exc:
         log(f"DEPLOYMENT FAILED: {type(exc).__name__}: {exc}")
         raise
+
     finally:
         client.close()
+
 
 if __name__ == "__main__":
     main()

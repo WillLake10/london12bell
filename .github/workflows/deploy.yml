@@ -1,4 +1,3 @@
-
 name: Deploy website to Mythic Beasts
 
 on:
@@ -8,7 +7,7 @@ on:
   workflow_dispatch:
 
 permissions:
-  contents: read
+  contents: write
 
 concurrency:
   group: website-deployment
@@ -17,11 +16,27 @@ concurrency:
 jobs:
   deploy:
     runs-on: ubuntu-latest
-    timeout-minutes: 10
+    timeout-minutes: 60
 
     steps:
       - name: Check out repository
         uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - name: Find last successful deployment
+        id: previous
+        shell: bash
+        run: |
+          git fetch origin deployment-state || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/deployment-state; then
+            SHA=$(git show origin/deployment-state:last-deployed-sha 2>/dev/null || true)
+          else
+            SHA=""
+          fi
+
+          echo "sha=$SHA" >> "$GITHUB_OUTPUT"
 
       - name: Set up Python
         uses: actions/setup-python@v5
@@ -38,4 +53,23 @@ jobs:
           SFTP_PASSWORD: ${{ secrets.SFTP_PASSWORD }}
           SFTP_REMOTE_PATH: ./www/www.london12bellcomp.org.uk/
           SFTP_HOST_KEY_FINGERPRINT: ${{ secrets.SFTP_HOST_KEY_FINGERPRINT }}
+          PREVIOUS_SHA: ${{ steps.previous.outputs.sha }}
+          CURRENT_SHA: ${{ github.sha }}
         run: python .github/scripts/deploy_sftp.py
+
+      - name: Record successful deployment
+        shell: bash
+        run: |
+          git fetch origin deployment-state || true
+
+          if git show-ref --verify --quiet refs/remotes/origin/deployment-state; then
+            git checkout -B deployment-state origin/deployment-state
+          else
+            git checkout --orphan deployment-state
+            git rm -rf .
+          fi
+
+          echo "$GITHUB_SHA" > last-deployed-sha
+          git add last-deployed-sha
+          git commit -m "Record successful deployment $GITHUB_SHA"
+          git push origin HEAD:deployment-state
