@@ -8,9 +8,9 @@ const RESULT_YEARS = [
 ];
 
 const STATIC_LINKS = [
-  { page: "rules", href: "rules.html", label: "Competition Rules" },
-  { page: "safeguarding", href: "safeguarding.html", label: "Safeguarding" },
-  { page: "contacts", href: "contacts.html", label: "Contact" },
+  { page: "rules", href: "rules", label: "Competition Rules" },
+  { page: "safeguarding", href: "safeguarding", label: "Safeguarding" },
+  { page: "contacts", href: "contacts", label: "Contact" },
 ];
 
 function currentPageId() {
@@ -58,7 +58,7 @@ function renderNav() {
   const [latestYear, ...pastYears] = RESULT_YEARS;
   const yearLink = (year) => {
     const selected = current === `results-${year}` ? ' class="selected"' : "";
-    return `<li${selected}><a href="results.html?year=${year}">${year} Results</a></li>`;
+    return `<li${selected}><a href="results?year=${year}">${year} Results</a></li>`;
   };
 
   const isOnPastYear = pastYears.some((year) => current === `results-${year}`);
@@ -72,7 +72,7 @@ function renderNav() {
   const homeSelected = current === "home" ? ' class="selected"' : "";
 
   nav.innerHTML = `<ul>
-    <li${homeSelected}><a href="index.html">Home Page</a></li>
+    <li${homeSelected}><a href="./">Home Page</a></li>
     ${yearLink(latestYear)}
     <li class="nav-dropdown${isOnPastYear ? ' selected' : ''}">
       <details>
