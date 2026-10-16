@@ -5,6 +5,12 @@ on:
     branches:
       - main
   workflow_dispatch:
+    inputs:
+      full_deploy:
+        description: "Upload every tracked file, not just changed files"
+        required: true
+        type: boolean
+        default: false
 
 permissions:
   contents: write
@@ -55,6 +61,7 @@ jobs:
           SFTP_HOST_KEY_FINGERPRINT: ${{ secrets.SFTP_HOST_KEY_FINGERPRINT }}
           PREVIOUS_SHA: ${{ steps.previous.outputs.sha }}
           CURRENT_SHA: ${{ github.sha }}
+          FULL_DEPLOY: ${{ inputs.full_deploy || false }}
         run: python .github/scripts/deploy_sftp.py
 
       - name: Configure Git identity
