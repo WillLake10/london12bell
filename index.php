@@ -20,7 +20,7 @@
     </br>10:15 - Welcome
     </br>10:30 - Draw
     </br>11:00 - First Band
-    </br>11:30 - Band B
+<!--    </br>11:30 - Band B-->
     <!--    </br>12:00 - Band C-->
     <!--    </br>12:30 - Band D-->
     <!--    </br>13:00 - Band E-->
