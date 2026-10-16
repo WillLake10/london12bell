@@ -1,0 +1,38 @@
+
+name: Deploy website to Mythic Beasts
+
+on:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: website-deployment
+  cancel-in-progress: false
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v4
+
+      - name: Upload website via SFTP
+        uses: Dylan700/sftp-upload-action@v1.2.5
+        with:
+          server: ${{ secrets.SFTP_HOST }}
+          username: ${{ secrets.SFTP_USERNAME }}
+          password: ${{ secrets.SFTP_PASSWORD }}
+          port: 22
+          uploads: |
+            ./ => ${{ secrets.SFTP_REMOTE_PATH }}
+          ignore: |
+            .git/
+            .github/
+            .gitignore
+          delete: false
