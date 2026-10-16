@@ -89,17 +89,17 @@ function bandDetailHtml(band) {
   const ringers = band.ringers || [];
 
   if (band.photo) {
-    parts.push(`<img class="bandphoto" src="../images/bands/${band.year}/${band.photo}" alt="${band.name}" />`);
+    parts.push(`<img class="bandphoto" src="images/bands/${band.year}/${band.photo}" alt="${band.name}" />`);
     if (band.photocaption) parts.push(`<p class="bandcaption">${band.photocaption}</p>`);
   }
   parts.push(renderRingerGrid(band, ringers));
 
   if (band.touch) {
-    parts.push(`<audio controls preload="metadata"><source src="../touches/${band.year}/${band.touch}" type="audio/mpeg" /></audio>`);
+    parts.push(`<audio controls preload="metadata"><source src="touches/${band.year}/${band.touch}" type="audio/mpeg" /></audio>`);
   }
 
   if (band.cert) {
-    parts.push(`<p><a href="../certificates/${band.year}/${band.cert}" target="_blank">Download certificate</a></p>`);
+    parts.push(`<p><a href="certificates/${band.year}/${band.cert}" target="_blank">Download certificate</a></p>`);
   }
 
   return parts.join("\n");
@@ -150,7 +150,7 @@ async function renderTable(container, year, venue, bands) {
   `;
 
   const playButton = (band) => `
-    <button type="button" class="play-button" data-src="../touches/${year}/${band.touch}" aria-label="Play touch for ${band.name}">
+    <button type="button" class="play-button" data-src="touches/${year}/${band.touch}" aria-label="Play touch for ${band.name}">
       <svg class="icon-play" viewBox="0 0 20 20" aria-hidden="true"><polygon points="6,4 16,10 6,16" fill="currentColor" /></svg>
       <svg class="icon-pause" viewBox="0 0 20 20" aria-hidden="true"><rect x="5" y="4" width="3.5" height="12" fill="currentColor" /><rect x="11.5" y="4" width="3.5" height="12" fill="currentColor" /></svg>
     </button>
@@ -180,7 +180,7 @@ async function renderTable(container, year, venue, bands) {
         ? `<td class="col-desktop detail-cell">${band.photo || band.ringers ? detailButton(index) : ""}</td>`
         : "",
       hasCert
-        ? `<td class="col-desktop">${band.cert ? `<a href="../certificates/${year}/${band.cert}" target="_blank">${band.name}</a>` : ""}</td>`
+        ? `<td class="col-desktop">${band.cert ? `<a href="certificates/${year}/${band.cert}" target="_blank">${band.name}</a>` : ""}</td>`
         : "",
       hasTouch
         ? `<td class="col-desktop">${band.touch ? playButton(band) : ""}</td>`

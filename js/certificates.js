@@ -6,7 +6,7 @@ async function initCertificatesPage() {
   const certificates = await response.json();
 
   list.innerHTML = certificates
-    .map((cert) => `<p><a href="../certificates/${cert.year}/${cert.file}">${cert.label}</a></p>`)
+    .map((cert) => `<p><a href="certificates/${cert.year}/${cert.file}">${cert.label}</a></p>`)
     .join("");
 }
 

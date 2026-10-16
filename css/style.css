@@ -37,7 +37,7 @@ img {
 
 .site-header {
   background-color: var(--navy);
-  background-image: url("../../images/roofline.png");
+  background-image: url("../images/roofline.png");
   background-repeat: repeat-x;
   background-position: bottom;
   color: #fff;

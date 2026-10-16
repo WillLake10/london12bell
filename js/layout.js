@@ -31,7 +31,7 @@ async function renderHeader() {
 
   mount.innerHTML = `
     <div class="header-top">
-      <img class="trophy" src="../images/trophy.png" alt="Whitechapel Trophy" />
+      <img class="trophy" src="images/trophy.png" alt="Whitechapel Trophy" />
       <div>
         <h1>London 12 Bell Competition</h1>
         <h2>for the Whitechapel Trophy</h2>
@@ -44,7 +44,7 @@ async function renderHeader() {
         </div>
       ` : ""}
     </div>
-    <img class="skyline" src="../images/towers.png" alt="London skyline, including the London Eye" />
+    <img class="skyline" src="images/towers.png" alt="London skyline, including the London Eye" />
   `;
 }
 

@@ -128,7 +128,7 @@ function renderBlock(block) {
       return `<ul class="bands">${block.items.map((item) => `<li>${escapeHtml(item)}</li>`).join("")}</ul>`;
 
     case "image":
-      return `<img class="intext" src="../images/${escapeHtml(block.src)}" alt="${escapeHtml(block.alt || "")}"${block.height ? ` style="height: ${Number(block.height)}px"` : ""} />`;
+      return `<img class="intext" src="images/${escapeHtml(block.src)}" alt="${escapeHtml(block.alt || "")}"${block.height ? ` style="height: ${Number(block.height)}px"` : ""} />`;
 
     case "touch":
       return `
