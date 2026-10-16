@@ -3,7 +3,7 @@ include('include/pagetop.php');
 ?>
 <h1>2011 Competition</h1>
 
-<img class="intext" src="images/shoreditch2.jpg" title="Shoreditch" style="height: 350px" />
+<img class="intext" src="../images/shoreditch2.jpg" title="Shoreditch" style="height: 350px" />
 
 <p>The 2011 competition will take place on Saturday 22nd October at St Leonard's Shoreditch by kind invitation of the Society of Royal Cumberland Youths and enthusiastic permission of the Vicar, the Revd. Paul Turp. The chief judge this year is William R Haynes.</p>
 

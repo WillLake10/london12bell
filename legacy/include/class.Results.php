@@ -60,14 +60,14 @@ class Results
       			 	}
 
 				if($xBand->photo || $xBand->ringers) {
-					print '<td class="button"><a href="'.$sTopPath.'banddetails.php?band='.$xBand->rang.'&year='.$this->xResult->year.'" year="'.$this->xResult->year.'" rang="'.$xBand->rang.'" onclick=\'ga("send", "event", "detail click", "'.$this->xResult->year.'", "'.str_replace("'", "&apos;", $sName).'");\'><img src="images/detailbutton.png" alt="view details" title="view details" /></a></td>';
+					print '<td class="button"><a href="'.$sTopPath.'banddetails.php?band='.$xBand->rang.'&year='.$this->xResult->year.'" year="'.$this->xResult->year.'" rang="'.$xBand->rang.'" onclick=\'ga("send", "event", "detail click", "'.$this->xResult->year.'", "'.str_replace("'", "&apos;", $sName).'");\'><img src="../images/detailbutton.png" alt="view details" title="view details" /></a></td>';
 				}
                            	if($xBand->cert) {
-           				print '<td><a href ='.'"certificates/'.$this->xResult->year.'/'.$xBand->cert.'" target="_blank">'.$sName.'</a></td>';
+           				print '<td><a href ='.'"../certificates/'.$this->xResult->year.'/'.$xBand->cert.'" target="_blank">'.$sName.'</a></td>';
       			 	}
  
 				if($xBand->touch) {
-                                    print '<td><audio year="'.$this->xResult->year.'" band="'.str_replace("'", "&apos;", $sName).'" controls preload="metadata"><source src="'.$sTopPath.'touches/'.$this->xResult->year.'/'.$xBand->touch.'" type="audio/mpeg" /><a href="'.$sTopPath.'touches/'.$this->xResult->year.'/'.$xBand->touch.'" onclick=\'ga("send", "event", "touch click", "'.$this->xResult->year.'", "'.str_replace("'", "&apos;", $sName).'");\'>touch</a></td>';
+                                    print '<td><audio year="'.$this->xResult->year.'" band="'.str_replace("'", "&apos;", $sName).'" controls preload="metadata"><source src="'.$sTopPath.'../touches/'.$this->xResult->year.'/'.$xBand->touch.'" type="audio/mpeg" /><a href="'.$sTopPath.'../touches/'.$this->xResult->year.'/'.$xBand->touch.'" onclick=\'ga("send", "event", "touch click", "'.$this->xResult->year.'", "'.str_replace("'", "&apos;", $sName).'");\'>touch</a></td>';
                                 }
 				print "</tr>";
 			}

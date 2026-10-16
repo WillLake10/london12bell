@@ -18,7 +18,7 @@ else {
 }
 
 if($sBandPhoto) {
-	print "<img class='bandphoto' src='{$sTopPath}images/bands/$iYear/$sBandPhoto' />";
+	print "<img class='bandphoto' src='{$sTopPath}../images/bands/$iYear/$sBandPhoto' />";
 	$sCaption = $oResults->get_band_caption($iBand);
 	if($sCaption) {
 			print $sCaption;

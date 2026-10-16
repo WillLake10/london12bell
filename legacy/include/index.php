@@ -4,7 +4,7 @@ include('include/pagetop.php');
 
 <h1>2013 Competition</h1>
 
-<p><img class="intext" src="images/magnus.jpg" title="St Magnus the Martyr" />The 2013 Competition was won by the Society of Royal Cumberland Youths. It was hosted by the University of London Society at St Magnus the Martyr, Lower Thames Street, by kind permission of the rector, The Rev Philip Warner and tower keeper, Dickon Love, on Saturday 26th October. The judges were Martin Whiteley (Chief Judge), Maggie Whiteley, and Liz Orme.</p>
+<p><img class="intext" src="../../images/magnus.jpg" title="St Magnus the Martyr" />The 2013 Competition was won by the Society of Royal Cumberland Youths. It was hosted by the University of London Society at St Magnus the Martyr, Lower Thames Street, by kind permission of the rector, The Rev Philip Warner and tower keeper, Dickon Love, on Saturday 26th October. The judges were Martin Whiteley (Chief Judge), Maggie Whiteley, and Liz Orme.</p>
 
 <p>Full results are available <a href="results2013.php">here.</a></p>
 

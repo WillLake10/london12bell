@@ -18,7 +18,7 @@ $oResults->show_table();
 </p>
 
 <p></p>
-<p>A copy of the Judges' Comments can be downloaded from <a href="downloads/Judges' Comments 2021.pdf" target="_blank">Judges' Comments.</a></p>
+<p>A copy of the Judges' Comments can be downloaded from <a href="../downloads/Judges' Comments 2021.pdf" target="_blank">Judges' Comments.</a></p>
 
 <?php
 include('include/pagebottom.php');

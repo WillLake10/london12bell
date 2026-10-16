@@ -14,7 +14,7 @@ body
 	margin: 0em;
 	padding: 0.5em 0em 0em 0em;
 	color: #FFFFFF;
-	background-image: url('images/roofline.png');
+	background-image: url('../images/roofline.png');
 	background-repeat: repeat-x;
 	background-position: bottom;
 }
@@ -359,7 +359,7 @@ img.bandphoto
 	float: right;
 	width: 21px;
 	height: 22px;
-	background-image: url("images/closebutton.png");
+	background-image: url("../images/closebutton.png");
 	background-repeat: none;
 	text-indent: -9999px;
 }
