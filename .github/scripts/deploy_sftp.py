@@ -7,6 +7,7 @@ import sys
 import base64
 import hashlib
 import hmac
+import hashlib
 from pathlib import Path
 
 import paramiko
@@ -49,6 +50,25 @@ class FingerprintPolicy(paramiko.MissingHostKeyPolicy):
 
         log(f"Verified SSH host key for {hostname}")
 
+def sha256_local(path):
+    digest = hashlib.sha256()
+
+    with open(path, "rb") as file:
+        for chunk in iter(lambda: file.read(1024 * 1024), b""):
+            digest.update(chunk)
+
+    return digest.hexdigest()
+
+
+def sha256_remote(sftp, path):
+    digest = hashlib.sha256()
+
+    with sftp.open(path, "rb") as file:
+        for chunk in iter(lambda: file.read(1024 * 1024), b""):
+            digest.update(chunk)
+
+    return digest.hexdigest()
+
 def main():
     client = paramiko.SSHClient()
     client.set_missing_host_key_policy(FingerprintPolicy())
@@ -84,12 +104,17 @@ def main():
 
             log(f"Found {len(files)} files to upload")
 
-            for local_file in files:
-                relative = local_file.relative_to(LOCAL_ROOT).as_posix()
-                remote_file = posixpath.join(REMOTE_ROOT, relative)
 
-                # Create missing subdirectories.
+            for local_file in files:
+                relative = local_file.relative_to(
+                    LOCAL_ROOT
+                ).as_posix()
+                remote_file = posixpath.join(
+                    REMOTE_ROOT, relative
+                )
                 parent = posixpath.dirname(remote_file)
+
+                # Create any missing parent directories.
                 missing = []
                 current = parent
 
@@ -97,18 +122,42 @@ def main():
                     try:
                         sftp.stat(current)
                         break
-                    except OSError:
+                    except OSError as exc:
+                        if getattr(exc, "errno", None) not in (2, 3):
+                            raise
+
                         missing.append(current)
                         next_dir = posixpath.dirname(current)
+
                         if next_dir == current:
                             raise
+
                         current = next_dir
 
                 for directory in reversed(missing):
                     log(f"Creating directory: {directory}")
                     sftp.mkdir(directory)
 
-                log(f"Uploading {relative} ({local_file.stat().st_size} bytes)")
+                # Check whether the remote file already exists.
+                try:
+                    remote_stat = sftp.stat(remote_file)
+                except OSError as exc:
+                    if getattr(exc, "errno", None) not in (2, 3):
+                        raise
+
+                    remote_stat = None
+
+                local_size = local_file.stat().st_size
+
+
+                if remote_stat is not None and remote_stat.st_size == local_size:
+                    local_hash = sha256_local(local_file)
+                    remote_hash = sha256_remote(sftp, remote_file)
+
+                    if local_hash == remote_hash:
+                        continue
+
+                log(f"Uploading {relative} ({local_size} bytes)")
                 sftp.put(str(local_file), remote_file)
                 log(f"Uploaded: {relative}")
 
