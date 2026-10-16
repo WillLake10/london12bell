@@ -13,7 +13,23 @@
 <b>Date</b>
 </br>Saturday 24th October</br></br>
 <b>Judges</b>
-</br>Tom Hinks (Chief Judge)</br></br>
+</br>Tom Hinks (Chief Judge)
+</br>Ben Carey (Assistant Judge)</br></br>
+<b>Timings</b>
+</br>10:00 - Judges Touch
+</br>10:15 - Welcome
+</br>10:30 - Draw
+</br>11:00 - First Band
+<!--    </br>11:30 - Band B-->
+<!--    </br>12:00 - Band C-->
+<!--    </br>12:30 - Band D-->
+<!--    </br>13:00 - Band E-->
+<!--    </br>13:30 - Band F-->
+<!--    </br>14:00 - Band G-->
+<!--    </br>14:30 - Band H-->
+<!--    </br>15:00 - Band I-->
+<!--    </br>15:30 - Band J-->
+</br>16:30 - Estimated Results</br></br>
 <b>Test Piece</b>
 </br><a href="https://complib.org/composition/42906">252 of Stedman Cinques</a>
 </br>
