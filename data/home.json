@@ -9,7 +9,8 @@
         { "label": "Location", "value": "St Giles-without-Cripplegate" },
         { "label": "Date", "value": "Saturday 24th October" },
         { "label": "Judges", "value": { "lines": ["Tom Hinks (Chief Judge)", "Ben Carey (Assistant Judge)"] } },
-        { "label": "Timings", "value": { "lines": ["10:00 - Judges Touch", "10:15 - Welcome", "10:30 - Draw", "11:00 - First Band", "16:30 - Estimated Results"] } },
+        { "label": "Timings", "value": { "lines": ["09:00 - Church is open", "10:00 - Judges Touch", "10:15 - Welcome", "10:30 - Draw", "11:00 - First Band", "17:00 - Estimated Results"] } },
+        { "label": "Pub", "value": "The Globe at Moorgate - open from Noon" },
         { "label": "Test Piece", "value": [{ "text": "252 of Stedman Cinques", "href": "https://complib.org/composition/42906" }] }
       ]
     },
