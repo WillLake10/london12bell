@@ -38,7 +38,7 @@ FULL_DEPLOY = (
 )
 
 LOCAL_ROOT = Path(".").resolve()
-EXCLUDED = {".git", ".github", ".gitignore"}
+EXCLUDED = {"", ".github", ".gitignore", "legacy"}
 
 
 def log(message):
