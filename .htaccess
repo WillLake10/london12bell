@@ -7,6 +7,14 @@ DirectoryIndex index.html
 
 RewriteEngine On
 
+# Redirects from the old PHP site's URLs (now in legacy/) to their new
+# equivalents. These only match at the site root, so legacy/*.php itself
+# is untouched.
+RewriteRule ^index\.(php|html)$ / [R=301,L]
+RewriteRule ^results(\d{4})\.php$ /results?year=$1 [R=301,L]
+RewriteRule ^competition(\d{4})\.php$ /competition?year=$1 [R=301,L]
+RewriteRule ^(contacts|rules|safeguarding|certificates)\.php$ /$1 [R=301,L]
+
 # A request for an existing page without its .html extension serves
 # that file's content directly - the address bar stays on the clean URL.
 RewriteCond %{REQUEST_FILENAME} !-d
