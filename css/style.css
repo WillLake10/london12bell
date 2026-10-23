@@ -204,7 +204,7 @@ img {
 
 /* Mobile: abbreviated team names (data/band-name-abbreviations.json);
    full names return once there's room, and always in the detail popup. */
-.resultstable .name-full {
+.name-full {
   display: none;
 }
 
@@ -534,11 +534,11 @@ dl.contacts dd {
     display: none;
   }
 
-  .resultstable .name-full {
+  .name-full {
     display: inline;
   }
 
-  .resultstable .name-short {
+  .name-short {
     display: none;
   }
 

@@ -33,12 +33,19 @@ function renderParagraphs(paragraphs) {
 
 // "info" block value: a plain string (one line), a bare array of runs
 // (one line, joined like a paragraph), or {lines: [...]} for several
-// separate lines - each line itself a string or an array of runs.
+// separate lines - each line itself a string, an array of runs, or
+// {text, short} to show the shorter text on narrow screens.
+function renderInfoLine(line) {
+  if (Array.isArray(line)) return line.map(renderRun).join(" ");
+  if (line && typeof line === "object") {
+    return `<span class="name-full">${escapeHtml(line.text)}</span><span class="name-short">${escapeHtml(line.short)}</span>`;
+  }
+  return escapeHtml(line);
+}
+
 function renderInfoValue(value) {
   if (value && typeof value === "object" && Array.isArray(value.lines)) {
-    return value.lines
-      .map((line) => (Array.isArray(line) ? line.map(renderRun).join(" ") : escapeHtml(line)))
-      .join("<br />");
+    return value.lines.map(renderInfoLine).join("<br />");
   }
   if (Array.isArray(value)) {
     return value.map(renderRun).join(" ");

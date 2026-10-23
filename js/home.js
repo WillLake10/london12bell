@@ -34,11 +34,14 @@ async function loadProvisionalBands() {
   return data.bands || [];
 }
 
-function withBandTimings(blocks, bands) {
+function withBandTimings(blocks, bands, abbreviations) {
   const schedule = bands
     .filter((band) => band.rang)
     .sort((a, b) => a.rang - b.rang)
-    .map((band, index) => `${startTime(index)} - ${band.name}`);
+    .map((band, index) => ({
+      text: `${startTime(index)} - ${band.name}`,
+      short: `${startTime(index)} - ${shortenBandName(band.name, abbreviations)}`,
+    }));
 
   return blocks.map((block) => {
     if (block.type !== "info") return block;
@@ -133,7 +136,7 @@ async function initHomePage() {
     blocks = withoutResultsDaySections(blocks);
     provisionalBands = await loadProvisionalBands();
   } else if (data.showBandTimings) {
-    blocks = withBandTimings(blocks, await loadProvisionalBands());
+    blocks = withBandTimings(blocks, await loadProvisionalBands(), await loadBandNameAbbreviations());
   }
 
   upcomingSection.innerHTML = `<h1 style="text-align: center;">${escapeHtml(data.title)}</h1>${renderBlocks(blocks)}`;
