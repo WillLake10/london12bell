@@ -1,14 +1,14 @@
 {
   "bands": [
-    { "name": "Ancient Society of College Youths (Barbie)", "rang": null, "mark": null, "speed": null },
-    { "name": "Ancient Society of College Youths (Ken)", "rang": null, "mark": null, "speed": null },
-    { "name": "Cornhill", "rang": null, "mark": null, "speed": null },
-    { "name": "St Paul's Cathedral Guild", "rang": null, "mark": null, "speed": null },
-    { "name": "Middlesex County Association", "rang": null, "mark": null, "speed": null },
-    { "name": "Southwark Cathedral", "rang": null, "mark": null, "speed": null },
-    { "name": "Surrey Association", "rang": "1", "mark": null, "speed": null },
-    { "name": "Society of Royal Cumberland Youths (A)", "rang": null, "mark": null, "speed": null },
-    { "name": "Society of Royal Cumberland Youths (B)", "rang": null, "mark": null, "speed": null },
-    { "name": "University of London Society of Change Ringers", "rang": null, "mark": null, "speed": null }
+    { "name": "Ancient Society of College Youths (Barbie)", "rang": 9, "mark": null, "speed": null },
+    { "name": "Ancient Society of College Youths (Ken)", "rang": 5, "mark": null, "speed": null },
+    { "name": "Cornhill", "rang": 2, "mark": null, "speed": null },
+    { "name": "St Paul's Cathedral Guild", "rang": 7, "mark": null, "speed": null },
+    { "name": "Middlesex County Association", "rang": 4, "mark": null, "speed": null },
+    { "name": "Southwark Cathedral", "rang": 1p, "mark": null, "speed": null },
+    { "name": "Surrey Association", "rang": 1, "mark": null, "speed": null },
+    { "name": "Society of Royal Cumberland Youths (A)", "rang": 8, "mark": null, "speed": null },
+    { "name": "Society of Royal Cumberland Youths (B)", "rang": 3, "mark": null, "speed": null },
+    { "name": "University of London Society of Change Ringers", "rang": 6, "mark": null, "speed": null }
   ]
 }
