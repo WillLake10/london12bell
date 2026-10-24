@@ -1,6 +1,6 @@
 {
   "mode": "upcoming",
-  "showBandTimings": false,
+  "showBandTimings": true,
   "showResults": false,
   "year": 2026,
   "title": "The 2026 Competition",
