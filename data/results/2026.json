@@ -1,0 +1,228 @@
+{
+  "year": 2026,
+  "venue": "St Giles-without-Cripplegate",
+  "intro": [
+    "Ten bands took part in the seventeenth London Twelve Bell Striking Competition. The competition was held at St Giles-without-Cripplegate on Saturday 24th October judged by Tom Hinks (Chief Judge) and Ben Carey (Assistant Judge).",
+    [
+      "The test piece was",
+      {
+        "text": "252 of Stedman Cinques",
+        "href": "https://complib.org/composition/42906"
+      }
+    ],
+    "Congratulations to the winning band, representing the Ancient Society of College Youths. Results are given below."
+  ],
+  "outro": [],
+  "bands": [
+    {
+      "name": "Surrey Association",
+      "rang": 1,
+      "mark": 70,
+      "speed": "3h18",
+      "photo": "surrey.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Sheila M Cheesman" },
+        { "bell": 2, "name": "Shirley E McGill" },
+        { "bell": 3, "name": "Caroline A Prescott" },
+        { "bell": 4, "name": "Anne M Anthony" },
+        { "bell": 5, "name": "Christopher Ridley" },
+        { "bell": 6, "name": "Fraser A Storie" },
+        { "bell": 7, "name": "Rebecca A Steed" },
+        { "bell": 8, "name": "Jeremy D Cheesman" },
+        { "bell": 9, "name": "Noel J R Gibbin" },
+        { "bell": 10, "name": "Phillip P Ridley" },
+        { "bell": 11, "name": "Anthony P Matthews" },
+        { "bell": 12, "name": "Mark Underwood" }
+      ]
+    },
+    {
+      "name": "Cornhill",
+      "rang": 2,
+      "mark": 80,
+      "speed": "3h26",
+      "photo": "cornhill.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Catherine N Merlane" },
+        { "bell": 2, "name": "Ryan S Noble" },
+        { "bell": 3, "name": "Christopher M Gould" },
+        { "bell": 4, "name": "Elizabeth A Burton" },
+        { "bell": 5, "name": "Anne M Anthony" },
+        { "bell": 6, "name": "Michael A Williams" },
+        { "bell": 7, "name": "David F Perkins" },
+        { "bell": 8, "name": "Matthew A Child" },
+        { "bell": 9, "name": "Andrew M Hills" },
+        { "bell": 10, "name": "Neil Buswell" },
+        { "bell": 11, "name": "Stephen J Bailey" },
+        { "bell": 12, "name": "Mark E R Gill" }
+      ]
+    },
+    {
+      "name": "Society of Royal Cumberland Youths (B)",
+      "rang": 3,
+      "mark": 62,
+      "speed": "3h19",
+      "photo": "srcy-b.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Geraldine R Forster" },
+        { "bell": 2, "name": "Penelope J V Sharpe" },
+        { "bell": 3, "name": "Fraser A Storie" },
+        { "bell": 4, "name": "Elizabeth A Hibbert" },
+        { "bell": 5, "name": "Andrew D Hodgson" },
+        { "bell": 6, "name": "Russell A Brown" },
+        { "bell": 7, "name": "Adam W Kilgour" },
+        { "bell": 8, "name": "Nicholas D Brown" },
+        { "bell": 9, "name": "Douglas J Beaumont" },
+        { "bell": 10, "name": "Stephen J Bailey" },
+        { "bell": 11, "name": "David F Perkins" },
+        { "bell": 12, "name": "Miles F E Baker" }
+      ]
+    },
+    {
+      "name": "Middlesex County Association",
+      "rang": 4,
+      "mark": 58,
+      "speed": "3h15",
+      "photo": "middlesex.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Christopher M Gould" },
+        { "bell": 2, "name": "Mary E Gow" },
+        { "bell": 3, "name": "Geraldine R Forster" },
+        { "bell": 4, "name": "Linda S Georgiades" },
+        { "bell": 5, "name": "Brooks Hayes" },
+        { "bell": 6, "name": "Thomas G Ashwin-Siejkowski" },
+        { "bell": 7, "name": "James White" },
+        { "bell": 8, "name": "William J Lake" },
+        { "bell": 9, "name": "Thomas F Lawrance" },
+        { "bell": 10, "name": "David I Bassford" },
+        { "bell": 11, "name": "Simon S Meyer" },
+        { "bell": 12, "name": "Lucas J Owen" }
+      ]
+    },
+    {
+      "name": "Ancient Society of College Youths (Ken)",
+      "rang": 5,
+      "mark": 76,
+      "speed": "3h22",
+      "photo": "ascyKen.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Heather A Rayner" },
+        { "bell": 2, "name": "Patrick L H Brooke" },
+        { "bell": 3, "name": "Bethan L Hensman" },
+        { "bell": 4, "name": "Alison L Brooke" },
+        { "bell": 5, "name": "Catherine E Hampson" },
+        { "bell": 6, "name": "Euan R M Thomas" },
+        { "bell": 7, "name": "Mark C Liebenrood" },
+        { "bell": 8, "name": "Michael J Pollard" },
+        { "bell": 9, "name": "Lucas J Owen" },
+        { "bell": 10, "name": "Leigh D G Simpson" },
+        { "bell": 11, "name": "Matthew E Rayner" },
+        { "bell": 12, "name": "Andrew M Hills" }
+      ]
+    },
+    {
+      "name": "University of London Society of Change Ringers",
+      "rang": 6,
+      "mark": 55,
+      "speed": "3h20",
+      "photo": "ulscr.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Bethan L Hensman" },
+        { "bell": 2, "name": "Toby C Hibbert" },
+        { "bell": 3, "name": "Harry M Turner" },
+        { "bell": 4, "name": "Florence H P Lazenby" },
+        { "bell": 5, "name": "George J Hart" },
+        { "bell": 6, "name": "Katherine P G Jennings" },
+        { "bell": 7, "name": "Clara M Waller" },
+        { "bell": 8, "name": "Brooks Hayes" },
+        { "bell": 9, "name": "Alexander D Lewis" },
+        { "bell": 10, "name": "Cameron White-Spunner" },
+        { "bell": 11, "name": "Isaac W Johnson" },
+        { "bell": 12, "name": "Euan R M Thomas" }
+      ]
+    },
+    {
+      "name": "St Paul's Cathedral Guild",
+      "rang": 7,
+      "mark": 87,
+      "speed": "3h18",
+      "photo": "stPauls.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Rebecca L Sugden" },
+        { "bell": 2, "name": "Ann White" },
+        { "bell": 3, "name": "James J Watkins" },
+        { "bell": 4, "name": "Jemma L Meyer" },
+        { "bell": 5, "name": "Philip R J Barnes" },
+        { "bell": 6, "name": "David I Bassford" },
+        { "bell": 7, "name": "Martin J Cansdale" },
+        { "bell": 8, "name": "Phillip P Ridley" },
+        { "bell": 9, "name": "Toby A Bence" },
+        { "bell": 10, "name": "Lucinda J Woodward" },
+        { "bell": 11, "name": "Nicholas D Brown" },
+        { "bell": 12, "name": "John I White" }
+      ]
+    },
+    {
+      "name": "Society of Royal Cumberland Youths (A)",
+      "rang": 8,
+      "mark": 84,
+      "speed": "3h24",
+      "photo": "srcy-a.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Jack E Page" },
+        { "bell": 2, "name": "Theo A Johnson" },
+        { "bell": 3, "name": "Shirley E McGill" },
+        { "bell": 4, "name": "Linda M Garton" },
+        { "bell": 5, "name": "David C Bath" },
+        { "bell": 6, "name": "Catherine N Merlane" },
+        { "bell": 7, "name": "Catherine E Morley" },
+        { "bell": 8, "name": "Ian G Mills" },
+        { "bell": 9, "name": "Christian M Peckham" },
+        { "bell": 10, "name": "Ruth E R Corney" },
+        { "bell": 11, "name": "Thomas B Mack" },
+        { "bell": 12, "name": "Claire F Roulstone" }
+      ]
+    },
+    {
+      "name": "Ancient Society of College Youths (Barbie)",
+      "rang": 9,
+      "mark": 90,
+      "speed": "3h25",
+      "photo": "ascyBarbie.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Tessa K Simpson" },
+        { "bell": 2, "name": "Rebecca L Sugden" },
+        { "bell": 3, "name": "Michael A Williams" },
+        { "bell": 4, "name": "Susan L Apter" },
+        { "bell": 5, "name": "James J Watkins" },
+        { "bell": 6, "name": "William M Beech" },
+        { "bell": 7, "name": "Andrew D Meyer" },
+        { "bell": 8, "name": "Anthony J Bloomfield" },
+        { "bell": 9, "name": "Adam A Brady" },
+        { "bell": 10, "name": "James C Marchbank" },
+        { "bell": 11, "name": "Ryan S Noble" },
+        { "bell": 12, "name": "Simon S Meyer" }
+      ]
+    },
+    {
+      "name": "Southwark Cathedral",
+      "rang": 10,
+      "mark": 82,
+      "speed": "3h19",
+      "photo": "southwark.jpg",
+      "ringers": [
+        { "bell": 1, "name": "Hannah L Taylor" },
+        { "bell": 2, "name": "Sheila M Cheesman" },
+        { "bell": 3, "name": "James C Marchbank" },
+        { "bell": 4, "name": "Heather A Rayner" },
+        { "bell": 5, "name": "Mark C Liebenrood" },
+        { "bell": 6, "name": "Luke D Perkins" },
+        { "bell": 7, "name": "William J Lake" },
+        { "bell": 8, "name": "Rebecca A Steed" },
+        { "bell": 9, "name": "Anthony P Matthews" },
+        { "bell": 10, "name": "Simon D Roberts" },
+        { "bell": 11, "name": "Luke O Camden" },
+        { "bell": 12, "name": "Matthew E Rayner" }
+      ]
+    }
+  ]
+}

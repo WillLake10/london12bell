@@ -3,7 +3,7 @@
 // adding to YEARS below, instead of editing a nav list on every page.
 
 const RESULT_YEARS = [
-  2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015,
+  2026, 2025, 2024, 2023, 2022, 2021, 2019, 2018, 2017, 2016, 2015,
   2014, 2013, 2012, 2011, 2010, 2009,
 ];
 
@@ -36,7 +36,7 @@ async function renderHeader() {
         <h1>London 12 Bell Competition</h1>
         <h2>for the Whitechapel Trophy</h2>
       </div>
-      ${upcoming ? `
+      ${upcoming && upcoming.date ? `
         <div class="contest-banner">
           <p><strong>${upcoming.year} Contest:</strong></p>
           <p>${upcoming.date}</p>
