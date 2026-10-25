@@ -1,7 +1,7 @@
 {
   "mode": "upcoming",
   "showBandTimings": false,
-  "showResults": false,
+  "showResults": true,
   "year": 2026,
   "title": "The 2026 Competition",
   "blocks": [
@@ -11,7 +11,8 @@
         { "label": "Location", "value": "St Giles-without-Cripplegate" },
         { "label": "Date", "value": "Saturday 24th October" },
         { "label": "Judges", "value": { "lines": ["Tom Hinks (Chief Judge)", "Ben Carey (Assistant Judge)"] } },
-        { "label": "Results", "value": { "lines": ["1st - ASCY (Barbie)", "2nd - St Pauls", "3rd - SRCY A", "4th - Southwark", "5th - Cornhill", "6th - ASCY (Ken)", "7th - Surry", "8th - SRCY B", "9th - Middlesex", "10th - ULSCR"] } },
+        { "label": "Timings", "value": { "lines": ["09:00 - Church is open", "10:00 - Judges Touch", "10:15 - Welcome", "10:30 - Draw", "11:00 - Surrey", "11:30 - Cornhill", "12:00 - SRCY B", "12:30 - Middlesex", "13:00 - ASCY (Ken)", "13:30 - ULSCR", "14:00 - St Pauls", "14:30 - SRCY A", "15:00 - ASCY (Barbie)", "15:30 - Southwark", "17:00 - Estimated Results"] } },
+        { "label": "Pub", "value": "The Globe at Moorgate - open from Noon" },
         { "label": "Test Piece", "value": [{ "text": "252 of Stedman Cinques", "href": "https://complib.org/composition/42906" }] }
       ]
     },
