@@ -6,7 +6,7 @@
     { "name": "St Paul's Cathedral Guild", "rang": null, "mark": null, "speed": null },
     { "name": "Middlesex County Association", "rang": null, "mark": null, "speed": null },
     { "name": "Southwark Cathedral", "rang": null, "mark": null, "speed": null },
-    { "name": "Surrey Association", "rang": "1", "mark": null, "speed": null },
+    { "name": "Surrey Association", "rang": 1, "mark": null, "speed": null },
     { "name": "Society of Royal Cumberland Youths (A)", "rang": null, "mark": null, "speed": null },
     { "name": "Society of Royal Cumberland Youths (B)", "rang": null, "mark": null, "speed": null },
     { "name": "University of London Society of Change Ringers", "rang": null, "mark": null, "speed": null }
