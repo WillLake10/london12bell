@@ -11,7 +11,7 @@
         { "label": "Location", "value": "St Giles-without-Cripplegate" },
         { "label": "Date", "value": "Saturday 24th October" },
         { "label": "Judges", "value": { "lines": ["Tom Hinks (Chief Judge)", "Ben Carey (Assistant Judge)"] } },
-        { "label": "Results", "value": { "lines": ["1st - ASCY (Barbie)", "2nd - St Pauls", "3rd - SRCY A", "4th - Southwark", "5th - Cornhill", "6th - ASCY (Ken)", "7th - Surry", "8th - SRCY B", "9th - Middlesex", "10th - ULSCR"] } },
+        { "label": "Results", "value": { "lines": ["1st - ASCY (Barbie)", "2nd - St Pauls", "3rd - SRCY A", "4th - Southwark", "5th - Cornhill", "6th - ASCY (Ken)", "7th - Surrey", "8th - SRCY B", "9th - Middlesex", "10th - ULSCR"] } },
         { "label": "Test Piece", "value": [{ "text": "252 of Stedman Cinques", "href": "https://complib.org/composition/42906" }] }
       ]
     },
